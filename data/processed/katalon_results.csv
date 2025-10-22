@@ -1,0 +1,16 @@
+Date,Suite,Test Case,Status,Duration (s),Error Message,Details,File
+21-10-2025,Audit History Page,AuditHistorySubscription,PASSED,43.9,,"21-10-2025T18:02:16 - [TEST_CASE][PASSED] - Test Cases/DES/Audit History Page/AuditHistorySubscription: Test Cases/DES/Audit History Page/AuditHistorySubscription
+
+21-10-2025T18:02:16 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:02:16 - [TEST_STEP][PASSED] - ad",data/raw_reports/DES/Audit History Page/20251021_180132/JUnit_Report.xml
+21-10-2025,Audit History Page,AuditHistoryTradingPartner,PASSED,35.2,,"21-10-2025T18:03:00 - [TEST_CASE][PASSED] - Test Cases/DES/Audit History Page/AuditHistoryTradingPartner: Test Cases/DES/Audit History Page/AuditHistoryTradingPartner
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] ",data/raw_reports/DES/Audit History Page/20251021_180132/JUnit_Report.xml
+21-10-2025,Audit History Page,AuditHistoryTransmission,PASSED,32.94,,"21-10-2025T18:03:36 - [TEST_CASE][PASSED] - Test Cases/DES/Audit History Page/AuditHistoryTransmission: Test Cases/DES/Audit History Page/AuditHistoryTransmission
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - ad",data/raw_reports/DES/Audit History Page/20251021_180132/JUnit_Report.xml

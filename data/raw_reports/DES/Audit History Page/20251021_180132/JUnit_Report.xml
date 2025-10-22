@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Audit History Page" time="112.327" tests="3" failures="0" errors="0">
+   <testsuite name="Audit History Page" tests="3" failures="0" errors="0" time="112.327" skipped="0" timestamp="21-10-2025T18:02:16" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/DES/Audit History Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\819\\s\\Reports\\20251021_180125\\DES\\Audit History Page\\20251021_180132"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\819\\s\\Reports\\20251021_180125\\DES\\Audit History Page\\20251021_180132\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="43b2babe4fefa97d68474ebf9cd773f7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/DES/Audit History Page/AuditHistorySubscription" time="43.903" classname="Test Cases/DES/Audit History Page/AuditHistorySubscription" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:02:16 - [TEST_CASE][PASSED] - Test Cases/DES/Audit History Page/AuditHistorySubscription: Test Cases/DES/Audit History Page/AuditHistorySubscription
+
+21-10-2025T18:02:16 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:02:16 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:02:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:02:17 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:02:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:02:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:02:17 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:02:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:02:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:02:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:02:20 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:02:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:02:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:02:30 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:02:32 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:02:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:02:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:02:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:02:37 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:02:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:02:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:02:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:02:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:02:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:02:43 - [TEST_STEP][PASSED] - navigateToUrl(TradingPartnerPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/partner' successfully
+
+21-10-2025T18:02:44 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/partner' successfully
+
+21-10-2025T18:02:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt"), 300): Object 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt' is visible
+
+21-10-2025T18:02:45 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt' is visible
+
+21-10-2025T18:02:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt"), "FIM FIM Load Tenders"): Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt'
+
+21-10-2025T18:02:46 - [MESSAGE][PASSED] - Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt'
+
+21-10-2025T18:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Trading Partners Page/Search Trading Partner_btn")): Object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_btn' is clicked on
+
+21-10-2025T18:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_btn' is clicked on
+
+21-10-2025T18:02:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:02:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:02:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/DES/Trading Partners Page/FIM LT View_btn")): Object 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clickable
+
+21-10-2025T18:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clickable
+
+21-10-2025T18:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Trading Partners Page/FIM LT View_btn")): Object: 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clicked on
+
+21-10-2025T18:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clicked on
+
+21-10-2025T18:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Trading Partners Page/Subscription/Subscription Tab")): Object: 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Tab' is clicked on
+
+21-10-2025T18:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Tab' is clicked on
+
+21-10-2025T18:02:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/DES/Trading Partners Page/Subscription/Subscription Select_dropdown")): Object 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Select_dropdown' is clickable
+
+21-10-2025T18:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Select_dropdown' is clickable
+
+21-10-2025T18:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Trading Partners Page/Subscription/Subscription Select_dropdown")): Object: 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Select_dropdown' is clicked on
+
+21-10-2025T18:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Select_dropdown' is clicked on
+
+21-10-2025T18:02:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:02:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_data-exchange/a_Audit History")): Object: 'Object Repository/Page_data-exchange/a_Audit History' is clicked on
+
+21-10-2025T18:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_data-exchange/a_Audit History' is clicked on
+
+21-10-2025T18:02:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DES/Audit History Page/Audit History_title"), 30): Object 'Object Repository/DES/Audit History Page/Audit History_title' is present
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Audit History Page/Audit History_title' is present
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DES/Audit History Page/Date Time Mod_title"), "Date/Time of Modification"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Date Time Mod_title' are matched.
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Date Time Mod_title' are matched.
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DES/Audit History Page/Modified By_title"), "Modified By"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Modified By_title' are matched.
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Modified By_title' are matched.
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DES/Audit History Page/Resource_title"), "Resource"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Resource_title' are matched.
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Resource_title' are matched.
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DES/Audit History Page/Field Changed_title"), "Field Changed"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Field Changed_title' are matched.
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Field Changed_title' are matched.
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DES/Audit History Page/Before Value_title"), "Before Value"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Before Value_title' are matched.
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Before Value_title' are matched.
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DES/Audit History Page/After Value_title"), "After Value"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/After Value_title' are matched.
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/After Value_title' are matched.
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:03:00 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Audit History Page/AuditHistoryTradingPartner" time="35.205" classname="Test Cases/DES/Audit History Page/AuditHistoryTradingPartner" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:03:00 - [TEST_CASE][PASSED] - Test Cases/DES/Audit History Page/AuditHistoryTradingPartner: Test Cases/DES/Audit History Page/AuditHistoryTradingPartner
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:03:00 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:03:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:03:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:03:00 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:03:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:03:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:03:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:03:01 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:03:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:03:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:03:11 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:03:12 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:03:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:03:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:03:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:03:17 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:03:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:03:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:03:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:03:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:03:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:03:22 - [TEST_STEP][PASSED] - navigateToUrl(TradingPartnerPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/partner' successfully
+
+21-10-2025T18:03:23 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/partner' successfully
+
+21-10-2025T18:03:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Trading Partners Page/Search Trading Partner_input_txt"), "FIM FIM Load Tenders"): Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt'
+
+21-10-2025T18:03:24 - [MESSAGE][PASSED] - Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt'
+
+21-10-2025T18:03:24 - [TEST_STEP][PASSED] - click(findTestObject("DES/Trading Partners Page/Search Trading Partner_btn")): Object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_btn' is clicked on
+
+21-10-2025T18:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_btn' is clicked on
+
+21-10-2025T18:03:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:03:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:03:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("DES/Trading Partners Page/FIM LT View_btn")): Object 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clickable
+
+21-10-2025T18:03:30 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clickable
+
+21-10-2025T18:03:30 - [TEST_STEP][PASSED] - click(findTestObject("DES/Trading Partners Page/FIM LT View_btn")): Object: 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clicked on
+
+21-10-2025T18:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clicked on
+
+21-10-2025T18:03:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("DES/Trading Partners Page/Trading Partner Audit History_btn")): Object 'Object Repository/DES/Trading Partners Page/Trading Partner Audit History_btn' is clickable
+
+21-10-2025T18:03:31 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partners Page/Trading Partner Audit History_btn' is clickable
+
+21-10-2025T18:03:31 - [TEST_STEP][PASSED] - click(findTestObject("DES/Trading Partners Page/Trading Partner Audit History_btn")): Object: 'Object Repository/DES/Trading Partners Page/Trading Partner Audit History_btn' is clicked on
+
+21-10-2025T18:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/Trading Partner Audit History_btn' is clicked on
+
+21-10-2025T18:03:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Audit History Page/Audit History_title"), 30): Object 'Object Repository/DES/Audit History Page/Audit History_title' is present
+
+21-10-2025T18:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Audit History Page/Audit History_title' is present
+
+21-10-2025T18:03:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Date Time Mod_title"), "Date/Time of Modification"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Date Time Mod_title' are matched.
+
+21-10-2025T18:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Date Time Mod_title' are matched.
+
+21-10-2025T18:03:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Modified By_title"), "Modified By"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Modified By_title' are matched.
+
+21-10-2025T18:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Modified By_title' are matched.
+
+21-10-2025T18:03:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Resource_title"), "Resource"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Resource_title' are matched.
+
+21-10-2025T18:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Resource_title' are matched.
+
+21-10-2025T18:03:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Field Changed_title"), "Field Changed"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Field Changed_title' are matched.
+
+21-10-2025T18:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Field Changed_title' are matched.
+
+21-10-2025T18:03:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Before Value_title"), "Before Value"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Before Value_title' are matched.
+
+21-10-2025T18:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Before Value_title' are matched.
+
+21-10-2025T18:03:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/After Value_title"), "After Value"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/After Value_title' are matched.
+
+21-10-2025T18:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/After Value_title' are matched.
+
+21-10-2025T18:03:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:03:36 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Audit History Page/AuditHistoryTransmission" time="32.943" classname="Test Cases/DES/Audit History Page/AuditHistoryTransmission" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:03:36 - [TEST_CASE][PASSED] - Test Cases/DES/Audit History Page/AuditHistoryTransmission: Test Cases/DES/Audit History Page/AuditHistoryTransmission
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:03:36 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:03:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:03:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:03:36 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:03:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:03:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:03:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:03:37 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:03:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:03:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:03:47 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:03:47 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:03:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:03:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:03:52 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:03:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:03:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:03:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:03:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:03:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:03:58 - [TEST_STEP][PASSED] - navigateToUrl(TradingPartnerPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/partner' successfully
+
+21-10-2025T18:03:58 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/partner' successfully
+
+21-10-2025T18:03:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Trading Partners Page/Search Trading Partner_input_txt"), "FIM FIM Load Tenders"): Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt'
+
+21-10-2025T18:04:00 - [MESSAGE][PASSED] - Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_input_txt'
+
+21-10-2025T18:04:00 - [TEST_STEP][PASSED] - click(findTestObject("DES/Trading Partners Page/Search Trading Partner_btn")): Object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_btn' is clicked on
+
+21-10-2025T18:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/Search Trading Partner_btn' is clicked on
+
+21-10-2025T18:04:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:04:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:04:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("DES/Trading Partners Page/FIM LT View_btn")): Object 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clickable
+
+21-10-2025T18:04:05 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clickable
+
+21-10-2025T18:04:05 - [TEST_STEP][PASSED] - click(findTestObject("DES/Trading Partners Page/FIM LT View_btn")): Object: 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clicked on
+
+21-10-2025T18:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/FIM LT View_btn' is clicked on
+
+21-10-2025T18:04:05 - [TEST_STEP][PASSED] - click(findTestObject("DES/Trading Partners Page/Subscription/Subscription Tab")): Object: 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Tab' is clicked on
+
+21-10-2025T18:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/Subscription/Subscription Tab' is clicked on
+
+21-10-2025T18:04:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("DES/Trading Partners Page/FIM LT Transmission Audit History_btn")): Object 'Object Repository/DES/Trading Partners Page/FIM LT Transmission Audit History_btn' is clickable
+
+21-10-2025T18:04:07 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partners Page/FIM LT Transmission Audit History_btn' is clickable
+
+21-10-2025T18:04:07 - [TEST_STEP][PASSED] - click(findTestObject("DES/Trading Partners Page/FIM LT Transmission Audit History_btn")): Object: 'Object Repository/DES/Trading Partners Page/FIM LT Transmission Audit History_btn' is clicked on
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partners Page/FIM LT Transmission Audit History_btn' is clicked on
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Audit History Page/Audit History_title"), 30): Object 'Object Repository/DES/Audit History Page/Audit History_title' is present
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Audit History Page/Audit History_title' is present
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Date Time Mod_title"), "Date/Time of Modification"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Date Time Mod_title' are matched.
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Date Time Mod_title' are matched.
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Modified By_title"), "Modified By"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Modified By_title' are matched.
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Modified By_title' are matched.
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Resource_title"), "Resource"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Resource_title' are matched.
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Resource_title' are matched.
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Field Changed_title"), "Field Changed"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Field Changed_title' are matched.
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Field Changed_title' are matched.
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/Before Value_title"), "Before Value"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Before Value_title' are matched.
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/Before Value_title' are matched.
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Audit History Page/After Value_title"), "After Value"): Actual text and expected text of test object 'Object Repository/DES/Audit History Page/After Value_title' are matched.
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Audit History Page/After Value_title' are matched.
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:04:08 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:04:08 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T18:02:16 - [TEST_SUITE][PASSED] - Audit History Page: Test Cases/DES/Audit History Page/AuditHistoryTransmission]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

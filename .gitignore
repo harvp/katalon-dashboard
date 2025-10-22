@@ -6,10 +6,5 @@ __pycache__/
 .venv/
 .env
 
-# Data
-data/raw_reports/
-data/processed/*.csv
-data/processed/*.sqlite
-
 # Streamlit cache
 .streamlit/
