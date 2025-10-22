@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="System Health Page" time="176.52" tests="6" failures="0" errors="0">
+   <testsuite name="System Health Page" tests="6" failures="0" errors="0" time="176.52" skipped="0" timestamp="21-10-2025T18:25:03" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/DES/System Health Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\819\\s\\Reports\\20251021_180125\\DES\\System Health Page\\20251021_180156"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\819\\s\\Reports\\20251021_180125\\DES\\System Health Page\\20251021_180156\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="a9c8220b4006a7d2fde6f06ee4640034"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/DES/System Health Page/AccessApplicationsTab" time="24.166" classname="Test Cases/DES/System Health Page/AccessApplicationsTab" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:25:03 - [TEST_CASE][PASSED] - Test Cases/DES/System Health Page/AccessApplicationsTab: Test Cases/DES/System Health Page/AccessApplicationsTab
+
+21-10-2025T18:25:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:25:03 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:25:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:25:04 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:25:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:25:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:25:04 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:25:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:25:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:25:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:25:06 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:25:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:25:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:25:16 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:25:16 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:25:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:25:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:25:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:25:22 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:25:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:25:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:25:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:25:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:25:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/System Health Tab"), 30): Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/System Health Tab")): Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/Applications/Applications Tab"), 30): Object 'Object Repository/DES/System Health Page/Applications/Applications Tab' is present
+
+21-10-2025T18:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Applications/Applications Tab' is present
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Applications/Applications Tab"), "Applications"): Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/Applications Tab' are matched.
+
+21-10-2025T18:25:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/Applications Tab' are matched.
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:25:27 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/System Health Page/AccessEventGridTopicsTab" time="24.408" classname="Test Cases/DES/System Health Page/AccessEventGridTopicsTab" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:25:27 - [TEST_CASE][PASSED] - Test Cases/DES/System Health Page/AccessEventGridTopicsTab: Test Cases/DES/System Health Page/AccessEventGridTopicsTab
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:25:27 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:25:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:25:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:25:27 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:25:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:25:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:25:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:25:28 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:25:28 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:25:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:25:38 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:25:39 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:25:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:25:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:25:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:25:44 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:25:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:25:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:25:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:25:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:25:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:25:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/System Health Tab"), 30): Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:25:49 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/System Health Tab")): Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:25:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/Event Grid Topics/Event Grid Topics Tab"), 30): Object 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is present
+
+21-10-2025T18:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is present
+
+21-10-2025T18:25:49 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Event Grid Topics/Event Grid Topics Tab")): Object: 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is clicked on
+
+21-10-2025T18:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is clicked on
+
+21-10-2025T18:25:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:25:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Event Grid Topics/Topic Name_lbl"), "Topic Name"): Actual text and expected text of test object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' are matched.
+
+21-10-2025T18:25:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' are matched.
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/Event Grid Topics/Topic Name_lbl"), 30): Object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' is present
+
+21-10-2025T18:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' is present
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:25:52 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/System Health Page/SortingByStatus" time="28.477" classname="Test Cases/DES/System Health Page/SortingByStatus" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:25:52 - [TEST_CASE][PASSED] - Test Cases/DES/System Health Page/SortingByStatus: Test Cases/DES/System Health Page/SortingByStatus
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:25:52 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:25:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:25:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:25:52 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:25:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:25:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:25:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:25:53 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:25:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:26:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:26:03 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:26:03 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:26:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:26:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:26:08 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:26:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:26:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:26:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:26:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:26:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:26:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/System Health Tab"), 30): Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:26:14 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:26:14 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/System Health Tab")): Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:26:14 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Applications/Status Sort Arrow")): Object: 'Object Repository/DES/System Health Page/Applications/Status Sort Arrow' is clicked on
+
+21-10-2025T18:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Applications/Status Sort Arrow' is clicked on
+
+21-10-2025T18:26:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-10-2025T18:26:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-10-2025T18:26:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Applications/1st API Row Name"), "Mapper Interface API", OPTIONAL): Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are matched.
+
+21-10-2025T18:26:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are matched.
+
+21-10-2025T18:26:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Applications/1st API Row Status"), "Degraded", OPTIONAL): Actual text 'Healthy' and expected text 'Degraded' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Healthy' and expected text 'Degraded' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4819)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SortingByStatus.run(SortingByStatus:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084116481.run(TempTestSuite1761084116481.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T18:26:17 - [MESSAGE][WARNING] - Actual text 'Healthy' and expected text 'Degraded' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Healthy' and expected text 'Degraded' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4819)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SortingByStatus.run(SortingByStatus:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084116481.run(TempTestSuite1761084116481.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T18:26:17 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Applications/Status Sort Arrow")): Object: 'Object Repository/DES/System Health Page/Applications/Status Sort Arrow' is clicked on
+
+21-10-2025T18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Applications/Status Sort Arrow' is clicked on
+
+21-10-2025T18:26:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-10-2025T18:26:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Applications/1st API Row Name"), "Lineage Events API", OPTIONAL): Actual text 'Mapper Interface API' and expected text 'Lineage Events API' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Mapper Interface API' and expected text 'Lineage Events API' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4819)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SortingByStatus.run(SortingByStatus:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084116481.run(TempTestSuite1761084116481.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T18:26:20 - [MESSAGE][WARNING] - Actual text 'Mapper Interface API' and expected text 'Lineage Events API' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Mapper Interface API' and expected text 'Lineage Events API' of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4819)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SortingByStatus.run(SortingByStatus:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084116481.run(TempTestSuite1761084116481.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Applications/1st API Row Status"), "Healthy"): Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are matched.
+
+21-10-2025T18:26:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are matched.
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:26:20 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/System Health Page/System Health Refresh" time="22.502" classname="Test Cases/DES/System Health Page/System Health Refresh" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:26:20 - [TEST_CASE][PASSED] - Test Cases/DES/System Health Page/System Health Refresh: Test Cases/DES/System Health Page/System Health Refresh
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:26:20 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:26:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:26:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:26:20 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:26:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:26:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:26:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:26:21 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:26:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:26:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:26:31 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:26:32 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:26:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:26:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:26:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:26:37 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:26:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:26:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:26:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:26:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:26:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/System Health Tab"), 30): Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:26:42 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/System Health Tab")): Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:26:42 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Event Grid Topics/Event Grid Topics Tab")): Object: 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is clicked on
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is clicked on
+
+21-10-2025T18:26:42 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("DES/System Health Page/Refresh_btn"), 30): Web element with id: 'Object Repository/DES/System Health Page/Refresh_btn' located by 'By.xpath: /html/body/div/div/div[2]/section/div/div/div[2]/div[1]/section/div[1]/button' is not present after '30' second(s)
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/DES/System Health Page/Refresh_btn' located by 'By.xpath: /html/body/div/div/div[2]/section/div/div/div[2]/div[1]/section/div[1]/button' is not present after '30' second(s)
+
+21-10-2025T18:26:42 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Applications/Applications Tab")): Object: 'Object Repository/DES/System Health Page/Applications/Applications Tab' is clicked on
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Applications/Applications Tab' is clicked on
+
+21-10-2025T18:26:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/System Health Page/Refresh_btn"), STOP_ON_FAILURE): Object 'Object Repository/DES/System Health Page/Refresh_btn' is visible
+
+21-10-2025T18:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Refresh_btn' is visible
+
+21-10-2025T18:26:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/Refresh_btn"), 30): Object 'Object Repository/DES/System Health Page/Refresh_btn' is present
+
+21-10-2025T18:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Refresh_btn' is present
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Refresh_btn")): Object: 'Object Repository/DES/System Health Page/Refresh_btn' is clicked on
+
+21-10-2025T18:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Refresh_btn' is clicked on
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:26:43 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/System Health Page/SystemHealthDetails" time="27.419" classname="Test Cases/DES/System Health Page/SystemHealthDetails" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:26:43 - [TEST_CASE][PASSED] - Test Cases/DES/System Health Page/SystemHealthDetails: Test Cases/DES/System Health Page/SystemHealthDetails
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:26:43 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:26:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:26:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:26:43 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:26:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:26:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:26:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:26:44 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:26:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:26:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:26:54 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:26:54 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:26:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:26:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:26:59 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:26:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:26:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:26:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:27:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:27:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:27:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/System Health Tab"), 30): Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:27:04 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:27:04 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/System Health Tab")): Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:27:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Applications/1st API Row Name"), "Mapper Interface API"): Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are matched.
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Name' are matched.
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Applications/1st API Row Status"), "Healthy", OPTIONAL): Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are matched.
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/System Health Page/Applications/1st API Row Status' are matched.
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Applications/1st API Row Link")): Object: 'Object Repository/DES/System Health Page/Applications/1st API Row Link' is clicked on
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Applications/1st API Row Link' is clicked on
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - switchToWindowUrl("https://dx-portal.qa.thekag.com/json/system-health/details?appName=Mapper%20Interface%20API"): Switched to window with url: 'https://dx-portal.qa.thekag.com/json/system-health/details?appName=Mapper%20Interface%20API'
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Switched to window with url: 'https://dx-portal.qa.thekag.com/json/system-health/details?appName=Mapper%20Interface%20API'
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/System Health Page/Applications/API JSON")): Object 'Object Repository/DES/System Health Page/Applications/API JSON' is visible
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Applications/API JSON' is visible
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/Applications/API JSON"), 30): Object 'Object Repository/DES/System Health Page/Applications/API JSON' is present
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Applications/API JSON' is present
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:27:10 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/System Health Page/Access Event Grid Topics Link" time="49.327" classname="Test Cases/DES/System Health Page/Access Event Grid Topics Link" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:27:10 - [TEST_CASE][PASSED] - Test Cases/DES/System Health Page/Access Event Grid Topics Link: Test Cases/DES/System Health Page/Access Event Grid Topics Link
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:27:10 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:27:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:27:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:27:10 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:27:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:27:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:27:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:27:11 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:27:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:27:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:27:21 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:27:22 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:27:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:27:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:27:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:27:27 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:27:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:27:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:27:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:27:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:27:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:27:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:27:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/System Health Tab"), 30): Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:27:32 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/System Health Tab' is present
+
+21-10-2025T18:27:32 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/System Health Tab")): Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/System Health Tab' is clicked on
+
+21-10-2025T18:27:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/Event Grid Topics/Event Grid Topics Tab"), 30): Object 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is present
+
+21-10-2025T18:27:32 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is present
+
+21-10-2025T18:27:32 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Event Grid Topics/Event Grid Topics Tab")): Object: 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is clicked on
+
+21-10-2025T18:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Event Grid Topics/Event Grid Topics Tab' is clicked on
+
+21-10-2025T18:27:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:27:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:27:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/System Health Page/Event Grid Topics/Topic Name_lbl"), "Topic Name"): Actual text and expected text of test object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' are matched.
+
+21-10-2025T18:27:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' are matched.
+
+21-10-2025T18:27:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/System Health Page/Event Grid Topics/Topic Name_lbl"), 30): Object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' is present
+
+21-10-2025T18:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Event Grid Topics/Topic Name_lbl' is present
+
+21-10-2025T18:27:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("DES/System Health Page/Event Grid Topics/In-LT_link")): Object 'Object Repository/DES/System Health Page/Event Grid Topics/In-LT_link' is clickable
+
+21-10-2025T18:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/DES/System Health Page/Event Grid Topics/In-LT_link' is clickable
+
+21-10-2025T18:27:34 - [TEST_STEP][PASSED] - click(findTestObject("DES/System Health Page/Event Grid Topics/In-LT_link")): Object: 'Object Repository/DES/System Health Page/Event Grid Topics/In-LT_link' is clicked on
+
+21-10-2025T18:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/System Health Page/Event Grid Topics/In-LT_link' is clicked on
+
+21-10-2025T18:27:34 - [TEST_STEP][PASSED] - switchToWindowUrl("https://portal.azure.com/#view/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2F", OPTIONAL): Cannot find window with url: 'https://portal.azure.com/#view/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2F' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://portal.azure.com/#view/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2F'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1863)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$14.call(Unknown Source)
+	at Access Event Grid Topics Link.run(Access Event Grid Topics Link:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084116481.run(TempTestSuite1761084116481.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T18:27:54 - [MESSAGE][WARNING] - Cannot find window with url: 'https://portal.azure.com/#view/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2F' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://portal.azure.com/#view/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2F'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1863)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$14.call(Unknown Source)
+	at Access Event Grid Topics Link.run(Access Event Grid Topics Link:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084116481.run(TempTestSuite1761084116481.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T18:27:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:27:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:27:59 - [TEST_STEP][PASSED] - verifyTextPresent("Microsoft Azure", false, STOP_ON_FAILURE): Text 'Microsoft Azure' is present on page 
+
+21-10-2025T18:27:59 - [MESSAGE][PASSED] - Text 'Microsoft Azure' is present on page 
+
+21-10-2025T18:27:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:27:59 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:27:59 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:27:59 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:27:59 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:27:59 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T18:25:03 - [TEST_SUITE][PASSED] - System Health Page: Test Cases/DES/System Health Page/Access Event Grid Topics Link]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Entity Activity Page" time="329.954" tests="8" failures="3" errors="0">
+   <testsuite name="Entity Activity Page" tests="8" failures="3" errors="0" time="329.954" skipped="0" timestamp="21-10-2025T18:14:17" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/DES/Entity Activity Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\819\\s\\Reports\\20251021_180125\\DES\\Entity Activity Page\\20251021_180144"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\819\\s\\Reports\\20251021_180125\\DES\\Entity Activity Page\\20251021_180144\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="d479eadd14c5673620c79dfa4e40564c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/DES/Entity Activity Page/Access Entity Activity Page From Left Menu" time="27.116" classname="Test Cases/DES/Entity Activity Page/Access Entity Activity Page From Left Menu" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:14:17 - [TEST_CASE][PASSED] - Test Cases/DES/Entity Activity Page/Access Entity Activity Page From Left Menu: Test Cases/DES/Entity Activity Page/Access Entity Activity Page From Left Menu
+
+21-10-2025T18:14:17 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:14:17 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:14:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:14:18 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:14:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:14:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:14:18 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:14:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:14:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:14:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:14:20 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:14:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:14:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:14:30 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:14:31 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:14:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:14:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:14:36 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:14:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:14:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:14:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:14:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:14:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_data-exchange/p_Entity Activity")): Object: 'Object Repository/Page_data-exchange/p_Entity Activity' is clicked on
+
+21-10-2025T18:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_data-exchange/p_Entity Activity' is clicked on
+
+21-10-2025T18:14:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:14:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_data-exchange/p_Entity Activity"), 10): Object 'Object Repository/Page_data-exchange/p_Entity Activity' is present
+
+21-10-2025T18:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_data-exchange/p_Entity Activity' is present
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_data-exchange/p_Entity Activity")): Object 'Object Repository/Page_data-exchange/p_Entity Activity' is visible
+
+21-10-2025T18:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_data-exchange/p_Entity Activity' is visible
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_data-exchange/p_Entity Activity")): Object 'Object Repository/Page_data-exchange/p_Entity Activity' is clickable
+
+21-10-2025T18:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_data-exchange/p_Entity Activity' is clickable
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Entity Activity_title"), 30): Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is present
+
+21-10-2025T18:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is present
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Entity Activity Page/Entity Activity_title"), "Entity Activity"): Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:14:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:14:44 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Order Activity Page" time="37.658" classname="Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Order Activity Page" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:14:44 - [TEST_CASE][PASSED] - Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Order Activity Page: Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Order Activity Page
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:14:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:14:45 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:14:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:14:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:14:45 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:14:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:14:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:14:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:14:45 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:14:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:14:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:14:55 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:14:56 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:14:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:15:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:15:01 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:15:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:15:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:15:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:15:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:15:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:15:07 - [TEST_STEP][PASSED] - navigateToUrl(OrdersPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/ordersdashboard' successfully
+
+21-10-2025T18:15:08 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/ordersdashboard' successfully
+
+21-10-2025T18:15:08 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("DES/Orders Page/Divisions_dropdown"), 20): Object 'Object Repository/DES/Orders Page/Divisions_dropdown' is clickable
+
+21-10-2025T18:15:08 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Orders Page/Divisions_dropdown' is clickable
+
+21-10-2025T18:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Orders Page/Divisions_dropdown")): Object: 'Object Repository/DES/Orders Page/Divisions_dropdown' is clicked on
+
+21-10-2025T18:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Orders Page/Divisions_dropdown' is clicked on
+
+21-10-2025T18:15:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Orders Page/Divisions_Input_txt"), " FDG - Fuels Delivery Group"): Keys ' FDG - Fuels Delivery Group' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:15:08 - [MESSAGE][PASSED] - Keys ' FDG - Fuels Delivery Group' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:15:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Orders Page/Divisions_Input_txt"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:15:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:15:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:15:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:15:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Orders Page/Order Source_input_txt"), "FIM"): Keys 'FIM' sent to object: 'Object Repository/DES/Orders Page/Order Source_input_txt'
+
+21-10-2025T18:15:10 - [MESSAGE][PASSED] - Keys 'FIM' sent to object: 'Object Repository/DES/Orders Page/Order Source_input_txt'
+
+21-10-2025T18:15:10 - [TEST_STEP][PASSED] - click(findTestObject("DES/Orders Page/Order Search_btn")): Object: 'Object Repository/DES/Orders Page/Order Search_btn' is clicked on
+
+21-10-2025T18:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Orders Page/Order Search_btn' is clicked on
+
+21-10-2025T18:15:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Orders Page/Order 48299695_link"), 30): Object 'Object Repository/DES/Orders Page/Order 48299695_link' is present
+
+21-10-2025T18:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Orders Page/Order 48299695_link' is present
+
+21-10-2025T18:15:12 - [TEST_STEP][PASSED] - click(findTestObject("DES/Orders Page/Order 48299695_link")): Object: 'Object Repository/DES/Orders Page/Order 48299695_link' is clicked on
+
+21-10-2025T18:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Orders Page/Order 48299695_link' is clicked on
+
+21-10-2025T18:15:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("DES/Entity Activity Page/Entity Activity_title"), 30): Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is visible
+
+21-10-2025T18:15:17 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is visible
+
+21-10-2025T18:15:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:15:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Entity Activity Page/Entity Activity_title"), "Entity Activity"): Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:15:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:15:22 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Trading Partner Activity Page" time="55.602" classname="Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Trading Partner Activity Page" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:15:22 - [TEST_CASE][PASSED] - Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Trading Partner Activity Page: Test Cases/DES/Entity Activity Page/Access Entity Activity Page Through Trading Partner Activity Page
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:15:22 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:15:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:15:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:15:22 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:15:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:15:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:15:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:15:23 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:15:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:15:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:15:33 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:15:33 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:15:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:15:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:15:39 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:15:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:15:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:15:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:15:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:15:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:15:44 - [TEST_STEP][PASSED] - navigateToUrl(TradingPartnerActivityPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity' successfully
+
+21-10-2025T18:15:44 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity' successfully
+
+21-10-2025T18:15:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:15:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:15:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown")): Object: 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown' is clicked on
+
+21-10-2025T18:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown' is clicked on
+
+21-10-2025T18:15:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_data-exchange/input_Trading Partner Name(s)_multiselect__input"), "fim fim load tenders"): Text 'fim fim load tenders' is set on object 'Object Repository/Page_data-exchange/input_Trading Partner Name(s)_multiselect__input'
+
+21-10-2025T18:15:46 - [MESSAGE][PASSED] - Text 'fim fim load tenders' is set on object 'Object Repository/Page_data-exchange/input_Trading Partner Name(s)_multiselect__input'
+
+21-10-2025T18:15:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:15:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:15:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/DES/Page_data-exchange/input_Trading Partner Name(s)_multiselect__input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DES/Page_data-exchange/input_Trading Partner Name(s)_multiselect__input'
+
+21-10-2025T18:15:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DES/Page_data-exchange/input_Trading Partner Name(s)_multiselect__input'
+
+21-10-2025T18:15:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-10-2025T18:15:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-10-2025T18:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Page_data-exchange/div_Transaction Type_multiselect__select")): Object: 'Object Repository/DES/Page_data-exchange/div_Transaction Type_multiselect__select' is clicked on
+
+21-10-2025T18:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Page_data-exchange/div_Transaction Type_multiselect__select' is clicked on
+
+21-10-2025T18:15:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt")): Object 'Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt' is clickable
+
+21-10-2025T18:15:55 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt' is clickable
+
+21-10-2025T18:15:55 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt")): Text of object 'Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt' is cleared
+
+21-10-2025T18:15:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt' is cleared
+
+21-10-2025T18:15:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt"), "May 1, 2023"): Keys 'May 1, 2023' sent to object: 'Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt'
+
+21-10-2025T18:15:55 - [MESSAGE][PASSED] - Keys 'May 1, 2023' sent to object: 'Object Repository/DES/Trading Partner Activity Page/From-To Date Time/From Date_input_txt'
+
+21-10-2025T18:15:55 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt")): Text of object 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt' is cleared
+
+21-10-2025T18:15:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt' is cleared
+
+21-10-2025T18:15:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt"), "May 5, 2023"): Keys 'May 5, 2023' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt'
+
+21-10-2025T18:15:55 - [MESSAGE][PASSED] - Keys 'May 5, 2023' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt'
+
+21-10-2025T18:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Trading Partner Activity Page/TPA_Search_btn")): Object: 'Object Repository/DES/Trading Partner Activity Page/TPA_Search_btn' is clicked on
+
+21-10-2025T18:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partner Activity Page/TPA_Search_btn' is clicked on
+
+21-10-2025T18:15:55 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+21-10-2025T18:16:10 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+21-10-2025T18:16:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM Load Tenders 1499 OUT LTR Row"), 30): Object 'Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM Load Tenders 1499 OUT LTR Row' is present
+
+21-10-2025T18:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM Load Tenders 1499 OUT LTR Row' is present
+
+21-10-2025T18:16:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM LT 1499 OUT LTR Entity Level All_btn")): Object 'Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM LT 1499 OUT LTR Entity Level All_btn' is clickable
+
+21-10-2025T18:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM LT 1499 OUT LTR Entity Level All_btn' is clickable
+
+21-10-2025T18:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM LT 1499 OUT LTR Entity Level All_btn")): Object: 'Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM LT 1499 OUT LTR Entity Level All_btn' is clicked on
+
+21-10-2025T18:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Trading Partner Activity Page/Search Results/FIM FIM LT 1499 OUT LTR Entity Level All_btn' is clicked on
+
+21-10-2025T18:16:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:16:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:16:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DES/Entity Activity Page/Entity Activity_title"), 30): Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is present
+
+21-10-2025T18:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is present
+
+21-10-2025T18:16:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DES/Entity Activity Page/Entity Activity_title"), "Entity Activity"): Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:16:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:16:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:16:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:16:18 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Entity Activity Page/Reprocess Entity" time="51.806" classname="Test Cases/DES/Entity Activity Page/Reprocess Entity" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DES/Entity Activity Page/Reprocess Entity FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xa;	at Reprocess Entity.run(Reprocess Entity:50)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;multiselect__tags&quot;>...&lt;/div> is not clickable at point (871, 345). Other element would receive the click: &lt;td data-action=&quot;selectDay&quot; data-day=&quot;10/.../2025&quot; class=&quot;day&quot;>17&lt;/td>&#xa;  (Session info: chrome=141.0.7390.122)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: cb6650063645c33aa09ef14289d6709f&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[21-10-2025T18:16:18 - [TEST_CASE][FAILED] - Test Cases/DES/Entity Activity Page/Reprocess Entity: Test Cases/DES/Entity Activity Page/Reprocess Entity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Reprocess Entity.run(Reprocess Entity:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="multiselect__tags">...</div> is not clickable at point (871, 345). Other element would receive the click: <td data-action="selectDay" data-day="10/.../2025" class="day">17</td>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb6650063645c33aa09ef14289d6709f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:16:18 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:16:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:16:18 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:16:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:16:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:16:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:16:19 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:16:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:16:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:16:29 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:16:29 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:16:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:16:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:16:34 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:16:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:16:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:16:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:16:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:16:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:16:40 - [TEST_STEP][PASSED] - navigateToUrl(EntityActivityPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/entityactivity' successfully
+
+21-10-2025T18:16:40 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/entityactivity' successfully
+
+21-10-2025T18:16:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:16:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_dropdown")): Object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_dropdown' is clicked on
+
+21-10-2025T18:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_dropdown' is clicked on
+
+21-10-2025T18:16:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt"), "KAG Logistics - MercuryGate"): Keys 'KAG Logistics - MercuryGate' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:16:42 - [MESSAGE][PASSED] - Keys 'KAG Logistics - MercuryGate' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:16:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:16:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:16:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:16:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:16:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:16:46 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt")): Text of object 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt' is cleared
+
+21-10-2025T18:16:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt' is cleared
+
+21-10-2025T18:16:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt"), "Mar 4, 2024"): Keys 'Mar 4, 2024' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt'
+
+21-10-2025T18:16:46 - [MESSAGE][PASSED] - Keys 'Mar 4, 2024' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt'
+
+21-10-2025T18:16:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:16:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_data-exchange/input_To_toDate")): Object: 'Object Repository/Page_data-exchange/input_To_toDate' is clicked on
+
+21-10-2025T18:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_data-exchange/input_To_toDate' is clicked on
+
+21-10-2025T18:16:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_data-exchange/input_To_toDate"), "Mar 5, 2024"): Text 'Mar 5, 2024' is set on object 'Object Repository/Page_data-exchange/input_To_toDate'
+
+21-10-2025T18:16:49 - [MESSAGE][PASSED] - Text 'Mar 5, 2024' is set on object 'Object Repository/Page_data-exchange/input_To_toDate'
+
+21-10-2025T18:16:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:16:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:16:51 - [TEST_STEP][FAILED] - click(findTestObject("DES/Entity Activity Page/Page_data-exchange/div_Select order statuses")): Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Reprocess Entity.run(Reprocess Entity:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="multiselect__tags">...</div> is not clickable at point (871, 345). Other element would receive the click: <td data-action="selectDay" data-day="10/.../2025" class="day">17</td>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb6650063645c33aa09ef14289d6709f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1684159852740.run(Script1684159852740.groovy:50)
+	... 16 more
+)
+
+21-10-2025T18:17:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Reprocess Entity.run(Reprocess Entity:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="multiselect__tags">...</div> is not clickable at point (871, 345). Other element would receive the click: <td data-action="selectDay" data-day="10/.../2025" class="day">17</td>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb6650063645c33aa09ef14289d6709f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1684159852740.run(Script1684159852740.groovy:50)
+	... 16 more
+)
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://dx-portal.qa.thekag.com/admin/entityactivity'
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://dx-portal.qa.thekag.com/admin/entityactivity'
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://dx-portal.qa.thekag.com/admin/entityactivity'
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/DES/Entity Activity Page/Reprocess Entity
+
+21-10-2025T18:17:09 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/DES/Entity Activity Page/Reprocess Entity
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://dx-portal.qa.thekag.com/admin/entityactivity'
+
+21-10-2025T18:17:09 - [MESSAGE][PASSED] - Current window's url is: 'https://dx-portal.qa.thekag.com/admin/entityactivity']]></system-out>
+         <system-err><![CDATA[21-10-2025T18:16:18 - [TEST_CASE][FAILED] - Test Cases/DES/Entity Activity Page/Reprocess Entity: Test Cases/DES/Entity Activity Page/Reprocess Entity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Reprocess Entity.run(Reprocess Entity:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="multiselect__tags">...</div> is not clickable at point (871, 345). Other element would receive the click: <td data-action="selectDay" data-day="10/.../2025" class="day">17</td>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb6650063645c33aa09ef14289d6709f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Entity Activity Page/Verify Entity Details Button" time="41.968" classname="Test Cases/DES/Entity Activity Page/Verify Entity Details Button" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:17:09 - [TEST_CASE][PASSED] - Test Cases/DES/Entity Activity Page/Verify Entity Details Button: Test Cases/DES/Entity Activity Page/Verify Entity Details Button
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:17:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:17:10 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:17:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:17:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T18:17:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:17:10 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:17:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:17:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:17:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:17:11 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:17:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:17:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:17:21 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:17:21 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:17:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:17:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:17:26 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:17:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:17:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:17:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:17:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:17:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:17:31 - [TEST_STEP][PASSED] - navigateToUrl(EntityActivityPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/entityactivity' successfully
+
+21-10-2025T18:17:32 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/entityactivity' successfully
+
+21-10-2025T18:17:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt")): Object 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt' is clickable
+
+21-10-2025T18:17:32 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt' is clickable
+
+21-10-2025T18:17:32 - [TEST_STEP][PASSED] - click(findTestObject("DES/Entity Activity Page/Trading Partner(s)/Trading Partners_dropdown")): Object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_dropdown' is clicked on
+
+21-10-2025T18:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_dropdown' is clicked on
+
+21-10-2025T18:17:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt"), "FIM FIM Load Tenders"): Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:17:32 - [MESSAGE][PASSED] - Keys 'FIM FIM Load Tenders' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:17:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:17:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:17:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DES/Entity Activity Page/Trading Partner(s)/Trading Partners_input_txt'
+
+21-10-2025T18:17:34 - [TEST_STEP][PASSED] - clearText(findTestObject("DES/Entity Activity Page/From-To/From Date_input_txt")): Text of object 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt' is cleared
+
+21-10-2025T18:17:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt' is cleared
+
+21-10-2025T18:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Entity Activity Page/From-To/From Date_input_txt"), "Jun 26, 2023"): Keys 'Jun 26, 2023' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt'
+
+21-10-2025T18:17:34 - [MESSAGE][PASSED] - Keys 'Jun 26, 2023' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/From Date_input_txt'
+
+21-10-2025T18:17:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:17:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:17:36 - [TEST_STEP][PASSED] - clearText(findTestObject("DES/Entity Activity Page/From-To/To Date_input_txt")): Text of object 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt' is cleared
+
+21-10-2025T18:17:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt' is cleared
+
+21-10-2025T18:17:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Entity Activity Page/From-To/To Date_input_txt"), "Jun 27, 2023"): Keys 'Jun 27, 2023' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt'
+
+21-10-2025T18:17:37 - [MESSAGE][PASSED] - Keys 'Jun 27, 2023' sent to object: 'Object Repository/DES/Entity Activity Page/From-To/To Date_input_txt'
+
+21-10-2025T18:17:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:17:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:17:39 - [TEST_STEP][PASSED] - click(findTestObject("DES/Entity Activity Page/Search_btn")): Object: 'Object Repository/DES/Entity Activity Page/Search_btn' is clicked on
+
+21-10-2025T18:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Entity Activity Page/Search_btn' is clicked on
+
+21-10-2025T18:17:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/FIM FIM Load Tenders Details_btn"), 30, OPTIONAL): Object 'Object Repository/DES/Entity Activity Page/FIM FIM Load Tenders Details_btn' is present
+
+21-10-2025T18:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/FIM FIM Load Tenders Details_btn' is present
+
+21-10-2025T18:17:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("DES/Entity Activity Page/FIM FIM Load Tenders Details_btn"), OPTIONAL): Object 'Object Repository/DES/Entity Activity Page/FIM FIM Load Tenders Details_btn' is clickable
+
+21-10-2025T18:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/FIM FIM Load Tenders Details_btn' is clickable
+
+21-10-2025T18:17:40 - [TEST_STEP][PASSED] - click(findTestObject("DES/Entity Activity Page/FIM FIM Load Tenders Details_btn")): Object: 'Object Repository/DES/Entity Activity Page/FIM FIM Load Tenders Details_btn' is clicked on
+
+21-10-2025T18:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Entity Activity Page/FIM FIM Load Tenders Details_btn' is clicked on
+
+21-10-2025T18:17:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:17:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Details", false): Text 'Transaction Details' is present on page 
+
+21-10-2025T18:17:51 - [MESSAGE][PASSED] - Text 'Transaction Details' is present on page 
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - verifyTextPresent("Inbound - Load Tender", false): Text 'Inbound - Load Tender' is present on page 
+
+21-10-2025T18:17:51 - [MESSAGE][PASSED] - Text 'Inbound - Load Tender' is present on page 
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:17:51 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information" time="44.38" classname="Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/DES/Orders Page/Order 34853439_link' to be clickable&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)&#xa;	at Verify Search Parameters Based Off Order Information.run(Verify Search Parameters Based Off Order Information:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/DES/Orders Page/Order 34853439_link' located by '/html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[21-10-2025T18:17:51 - [TEST_CASE][FAILED] - Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/DES/Orders Page/Order 34853439_link' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at Verify Search Parameters Based Off Order Information.run(Verify Search Parameters Based Off Order Information:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/DES/Orders Page/Order 34853439_link' located by '/html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:17:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:17:52 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:17:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:17:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:17:52 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:17:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:17:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:17:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:17:52 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:17:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:18:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:18:02 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:18:03 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:18:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:18:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:18:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:18:08 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:18:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:18:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:18:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:18:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:18:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:18:14 - [TEST_STEP][PASSED] - navigateToUrl(OrdersPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/ordersdashboard' successfully
+
+21-10-2025T18:18:14 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/ordersdashboard' successfully
+
+21-10-2025T18:18:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("DES/Orders Page/Divisions_dropdown"), 20): Object 'Object Repository/DES/Orders Page/Divisions_dropdown' is clickable
+
+21-10-2025T18:18:14 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Orders Page/Divisions_dropdown' is clickable
+
+21-10-2025T18:18:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DES/Orders Page/Divisions_dropdown")): Object: 'Object Repository/DES/Orders Page/Divisions_dropdown' is clicked on
+
+21-10-2025T18:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Orders Page/Divisions_dropdown' is clicked on
+
+21-10-2025T18:18:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Orders Page/Divisions_Input_txt"), " FDG - Fuels Delivery Group"): Keys ' FDG - Fuels Delivery Group' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:18:14 - [MESSAGE][PASSED] - Keys ' FDG - Fuels Delivery Group' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:18:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Orders Page/Divisions_Input_txt"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:18:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DES/Orders Page/Divisions_Input_txt'
+
+21-10-2025T18:18:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:18:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:18:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DES/Orders Page/Order Number_input_txt"), "48300809"): Keys '48300809' sent to object: 'Object Repository/DES/Orders Page/Order Number_input_txt'
+
+21-10-2025T18:18:17 - [MESSAGE][PASSED] - Keys '48300809' sent to object: 'Object Repository/DES/Orders Page/Order Number_input_txt'
+
+21-10-2025T18:18:17 - [TEST_STEP][PASSED] - click(findTestObject("DES/Orders Page/Order Search_btn")): Object: 'Object Repository/DES/Orders Page/Order Search_btn' is clicked on
+
+21-10-2025T18:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Orders Page/Order Search_btn' is clicked on
+
+21-10-2025T18:18:17 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("DES/Orders Page/Order 34853439_link")): Unable to verify object 'Object Repository/DES/Orders Page/Order 34853439_link' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/DES/Orders Page/Order 34853439_link' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at Verify Search Parameters Based Off Order Information.run(Verify Search Parameters Based Off Order Information:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/DES/Orders Page/Order 34853439_link' located by '/html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T18:18:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T18:18:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DES/Orders Page/Order 34853439_link'. Try using Self-healing.
+
+21-10-2025T18:18:34 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T18:18:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T18:18:36 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T18:18:36 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/DES/Orders Page/Order 34853439_link' located by '/html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/DES/Orders Page/Order 34853439_link' located by '/html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at Verify Search Parameters Based Off Order Information.run(Verify Search Parameters Based Off Order Information:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T18:18:36 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/DES/Orders Page/Order 34853439_link' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/DES/Orders Page/Order 34853439_link' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at Verify Search Parameters Based Off Order Information.run(Verify Search Parameters Based Off Order Information:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/DES/Orders Page/Order 34853439_link' located by '/html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://dx-portal.qa.thekag.com/admin/ordersdashboard'
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://dx-portal.qa.thekag.com/admin/ordersdashboard'
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://dx-portal.qa.thekag.com/admin/ordersdashboard'
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information
+
+21-10-2025T18:18:36 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://dx-portal.qa.thekag.com/admin/ordersdashboard'
+
+21-10-2025T18:18:36 - [MESSAGE][PASSED] - Current window's url is: 'https://dx-portal.qa.thekag.com/admin/ordersdashboard']]></system-out>
+         <system-err><![CDATA[21-10-2025T18:17:51 - [TEST_CASE][FAILED] - Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Order Information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/DES/Orders Page/Order 34853439_link' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at Verify Search Parameters Based Off Order Information.run(Verify Search Parameters Based Off Order Information:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/DES/Orders Page/Order 34853439_link' located by '/html/body/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/div/div/table/tbody/tr/td[2]/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information" time="45.352" classname="Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xa;	at Verify Search Parameters Based Off Subscription Information.run(Verify Search Parameters Based Off Subscription Information:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;multiselect__placeholder&quot;>...&lt;/span> is not clickable at point (459, 360). Other element would receive the click: &lt;span data-select=&quot;Select&quot; data-selected=&quot;Selected&quot; data-deselect=&quot;Select to remove&quot; class=&quot;multiselect__option&quot;>...&lt;/span>&#xa;  (Session info: chrome=141.0.7390.122)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 0c5ec98c9379d25143eff1d6bcbc98a7&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[21-10-2025T18:18:36 - [TEST_CASE][FAILED] - Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Verify Search Parameters Based Off Subscription Information.run(Verify Search Parameters Based Off Subscription Information:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="multiselect__placeholder">...</span> is not clickable at point (459, 360). Other element would receive the click: <span data-select="Select" data-selected="Selected" data-deselect="Select to remove" class="multiselect__option">...</span>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c5ec98c9379d25143eff1d6bcbc98a7
+	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:18:36 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:18:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:18:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T18:18:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:18:36 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:18:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:18:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:18:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:18:37 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:18:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:18:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:18:47 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:18:47 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:18:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:18:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:18:52 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:18:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:18:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:18:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:18:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:18:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:18:58 - [TEST_STEP][PASSED] - navigateToUrl(TradingPartnerActivityPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity' successfully
+
+21-10-2025T18:18:58 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity' successfully
+
+21-10-2025T18:18:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-10-2025T18:19:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-10-2025T18:19:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_data-exchange/div_Transaction Type(s)_multiselect__select")): Object: 'Object Repository/Page_data-exchange/div_Transaction Type(s)_multiselect__select' is clicked on
+
+21-10-2025T18:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_data-exchange/div_Transaction Type(s)_multiselect__select' is clicked on
+
+21-10-2025T18:19:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_data-exchange/span_LTR - Load Tender Response")): Object: 'Object Repository/Page_data-exchange/span_LTR - Load Tender Response' is clicked on
+
+21-10-2025T18:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_data-exchange/span_LTR - Load Tender Response' is clicked on
+
+21-10-2025T18:19:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T18:19:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T18:19:04 - [TEST_STEP][FAILED] - click(findTestObject("DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown")): Unable to click on object 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Verify Search Parameters Based Off Subscription Information.run(Verify Search Parameters Based Off Subscription Information:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="multiselect__placeholder">...</span> is not clickable at point (459, 360). Other element would receive the click: <span data-select="Select" data-selected="Selected" data-deselect="Select to remove" class="multiselect__option">...</span>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c5ec98c9379d25143eff1d6bcbc98a7
+	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1683825484974.run(Script1683825484974.groovy:32)
+	... 16 more
+)
+
+21-10-2025T18:19:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Verify Search Parameters Based Off Subscription Information.run(Verify Search Parameters Based Off Subscription Information:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="multiselect__placeholder">...</span> is not clickable at point (459, 360). Other element would receive the click: <span data-select="Select" data-selected="Selected" data-deselect="Select to remove" class="multiselect__option">...</span>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c5ec98c9379d25143eff1d6bcbc98a7
+	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1683825484974.run(Script1683825484974.groovy:32)
+	... 16 more
+)
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity'
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity'
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity'
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information
+
+21-10-2025T18:19:21 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity'
+
+21-10-2025T18:19:21 - [MESSAGE][PASSED] - Current window's url is: 'https://dx-portal.qa.thekag.com/admin/tradingpartneractivity']]></system-out>
+         <system-err><![CDATA[21-10-2025T18:18:36 - [TEST_CASE][FAILED] - Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information: Test Cases/DES/Entity Activity Page/Verify Search Parameters Based Off Subscription Information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Trading Partner Activity Page/Trading Partner Names/Trading Partner Names_dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Verify Search Parameters Based Off Subscription Information.run(Verify Search Parameters Based Off Subscription Information:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="multiselect__placeholder">...</span> is not clickable at point (459, 360). Other element would receive the click: <span data-select="Select" data-selected="Selected" data-deselect="Select to remove" class="multiselect__option">...</span>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c5ec98c9379d25143eff1d6bcbc98a7
+	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DES/Entity Activity Page/Verify Search Results" time="25.806" classname="Test Cases/DES/Entity Activity Page/Verify Search Results" status="PASSED">
+         <system-out><![CDATA[21-10-2025T18:19:21 - [TEST_CASE][PASSED] - Test Cases/DES/Entity Activity Page/Verify Search Results: Test Cases/DES/Entity Activity Page/Verify Search Results
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DES/DES Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:19:21 - [TEST_CASE][PASSED] - Test Cases/DES/DES Login: Test Cases/DES/DES Login
+
+21-10-2025T18:19:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T18:19:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T18:19:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T18:19:21 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T18:19:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T18:19:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T18:19:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T18:19:22 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T18:19:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T18:19:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T18:19:32 - [TEST_STEP][PASSED] - navigateToUrl("https://dx-portal.qa.thekag.com/"): Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:19:33 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/' successfully
+
+21-10-2025T18:19:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:19:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:19:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:19:38 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/Page_IdentityServer4/input_Username (e.g. email address)_Username'
+
+21-10-2025T18:19:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_IdentityServer4/input_Password_Password"), "BtpyPJuZxPz9EFo3Zi2c4Q=="): Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:19:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_IdentityServer4/input_Password_Password'
+
+21-10-2025T18:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_IdentityServer4/button_Login")): Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IdentityServer4/button_Login' is clicked on
+
+21-10-2025T18:19:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DES/DES Login' successfully
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - navigateToUrl(EntityActivityPageURL): Navigate to 'https://dx-portal.qa.thekag.com/admin/entityactivity' successfully
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Navigate to 'https://dx-portal.qa.thekag.com/admin/entityactivity' successfully
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_data-exchange/p_Entity Activity"), 30): Object 'Object Repository/Page_data-exchange/p_Entity Activity' is present
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_data-exchange/p_Entity Activity' is present
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_data-exchange/p_Entity Activity")): Object 'Object Repository/Page_data-exchange/p_Entity Activity' is visible
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_data-exchange/p_Entity Activity' is visible
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_data-exchange/p_Entity Activity")): Object 'Object Repository/Page_data-exchange/p_Entity Activity' is clickable
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_data-exchange/p_Entity Activity' is clickable
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Entity Activity_title"), 30): Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is present
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' is present
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DES/Entity Activity Page/Entity Activity_title"), "Entity Activity"): Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DES/Entity Activity Page/Entity Activity_title' are matched.
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - click(findTestObject("DES/Entity Activity Page/Search_btn")): Object: 'Object Repository/DES/Entity Activity Page/Search_btn' is clicked on
+
+21-10-2025T18:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/DES/Entity Activity Page/Search_btn' is clicked on
+
+21-10-2025T18:19:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Reprocess Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Reprocess Column' is present
+
+21-10-2025T18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Reprocess Column' is present
+
+21-10-2025T18:19:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Reprocess Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Reprocess Column' is visible
+
+21-10-2025T18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Reprocess Column' is visible
+
+21-10-2025T18:19:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Trading Partner Name Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Trading Partner Name Column' is present
+
+21-10-2025T18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Trading Partner Name Column' is present
+
+21-10-2025T18:19:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Trading Partner Name Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Trading Partner Name Column' is visible
+
+21-10-2025T18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Trading Partner Name Column' is visible
+
+21-10-2025T18:19:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Sub-Tran Dir Type Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Sub-Tran Dir Type Column' is present
+
+21-10-2025T18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Sub-Tran Dir Type Column' is present
+
+21-10-2025T18:19:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Sub-Tran Dir Type Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Sub-Tran Dir Type Column' is visible
+
+21-10-2025T18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Sub-Tran Dir Type Column' is visible
+
+21-10-2025T18:19:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Status Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Status Column' is present
+
+21-10-2025T18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Status Column' is present
+
+21-10-2025T18:19:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Status Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Status Column' is visible
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Status Column' is visible
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Transaction Date Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Transaction Date Column' is present
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Transaction Date Column' is present
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Transaction Date Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Transaction Date Column' is visible
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Transaction Date Column' is visible
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Bill To Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Bill To Column' is present
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Bill To Column' is present
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Bill To Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Bill To Column' is visible
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Bill To Column' is visible
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Order Number Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Order Number Column' is present
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Order Number Column' is present
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Order Number Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Order Number Column' is visible
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Order Number Column' is visible
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Customer Order Number Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Customer Order Number Column' is present
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Customer Order Number Column' is present
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Customer Order Number Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Customer Order Number Column' is visible
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Customer Order Number Column' is visible
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("DES/Entity Activity Page/Search Results Columns/Details Column"), 30): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Details Column' is present
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Details Column' is present
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("DES/Entity Activity Page/Search Results Columns/Details Column")): Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Details Column' is visible
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/DES/Entity Activity Page/Search Results Columns/Details Column' is visible
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-10-2025T18:19:47 - [MESSAGE][PASSED] - Browser is closed
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T18:19:47 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T18:14:17 - [TEST_SUITE][FAILED] - Entity Activity Page: Test Cases/DES/Entity Activity Page/Reprocess Entity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Reprocess Entity.run(Reprocess Entity:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="multiselect__tags">...</div> is not clickable at point (871, 345). Other element would receive the click: <td data-action="selectDay" data-day="10/.../2025" class="day">17</td>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb6650063645c33aa09ef14289d6709f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[21-10-2025T18:14:17 - [TEST_SUITE][FAILED] - Entity Activity Page: Test Cases/DES/Entity Activity Page/Reprocess Entity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DES/Entity Activity Page/Page_data-exchange/div_Select order statuses'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Reprocess Entity.run(Reprocess Entity:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761084104556.run(TempTestSuite1761084104556.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="multiselect__tags">...</div> is not clickable at point (871, 345). Other element would receive the click: <td data-action="selectDay" data-day="10/.../2025" class="day">17</td>
+  (Session info: chrome=141.0.7390.122)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DC1ADOBLD01', ip: '10.2.20.71', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.122, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb6650063645c33aa09ef14289d6709f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

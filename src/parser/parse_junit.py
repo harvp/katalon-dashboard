@@ -1,6 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 import pandas as pd
+import re
 
 
 def parse_junit_xml(file_path: str) -> list[dict]:
@@ -28,14 +29,21 @@ def parse_junit_xml(file_path: str) -> list[dict]:
             system_err = (case.find("system-err").text or "").strip() if case.find("system-err") is not None else ""
             system_out = (case.find("system-out").text or "").strip() if case.find("system-out") is not None else ""
 
+            project = "Unknown"
+            # Extract the folder name between raw_reports/ and the next folder (DES, FIM, etc.)
+            match = re.search(r"raw_reports[/\\]([^/\\]+)", file_path)
+            if match:
+                project = match.group(1)
+
             rows.append({
+                "Project": project,
                 "Date": suite_timestamp.split("T")[0] if suite_timestamp else "",
                 "Suite": suite_name,
                 "Test Case": test_name,
                 "Status": status,
                 "Duration (s)": round(time, 2),
                 "Error Message": system_err or ("Failed" if status == "FAILED" else ""),
-                "Details": system_out[:300],  # truncate long logs for readability
+                "Details": system_out[:300],
                 "File": file_path
             })
     return rows

@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KGL Admin - Custom Group" time="203.686" tests="5" failures="2" errors="0">
+   <testsuite name="KGL Admin - Custom Group" tests="5" failures="2" errors="0" time="203.686" skipped="0" timestamp="21-10-2025T20:15:53" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/FIM/Regression/UI/KGL/KGL Admin - Custom Group">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - Custom Group\\20251021_195226"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - Custom Group\\20251021_195226\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="726307d09aa43b45b8e76aa375b7a086"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group" time="42.642" classname="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)&#xa;	at Add Custom Group.run(Add Custom Group:44)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group&#xa;Cancel&#xa;Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[21-10-2025T20:15:53 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+21-10-2025T20:15:53 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:15:53 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:15:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:15:53 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:15:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:15:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:15:54 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:15:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:15:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:15:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:15:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:15:56 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:15:58 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:15:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:16:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:16:08 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:16:08 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:16:08 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:16:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:16:09 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:16:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:10 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:16:10 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:16:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:11 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:16:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:16:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/FIM/Custom Groups Page/Add Custom Group_btn"), 35): Object 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clickable
+
+21-10-2025T20:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clickable
+
+21-10-2025T20:16:12 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:16:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:16:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:16:29 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:16:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:16:31 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:16:31 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:16:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FIM/Custom Groups Page/Add Custom Group_btn")): Object: 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clicked on
+
+21-10-2025T20:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clicked on
+
+21-10-2025T20:16:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FIM/Custom Groups Page/New Custom Group_txt"), CustomGroup1): Keys 'Harlem Heights' sent to object: 'Object Repository/FIM/Custom Groups Page/New Custom Group_txt'
+
+21-10-2025T20:16:34 - [MESSAGE][PASSED] - Keys 'Harlem Heights' sent to object: 'Object Repository/FIM/Custom Groups Page/New Custom Group_txt'
+
+21-10-2025T20:16:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FIM/Custom Groups Page/Save Custom Group_btn")): Object: 'Object Repository/FIM/Custom Groups Page/Save Custom Group_btn' is clicked on
+
+21-10-2025T20:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/Save Custom Group_btn' is clicked on
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Custom Groups Page/Custom Group Success Message"), 10): Object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' is present
+
+21-10-2025T20:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' is present
+
+21-10-2025T20:16:35 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("FIM/Custom Groups Page/Custom Group Success Message"), "Custom Group created successfully"): Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T20:16:35 - [MESSAGE][FAILED] - Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:16:35 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group
+
+21-10-2025T20:16:35 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:16:35 - [MESSAGE][PASSED] - Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/']]></system-out>
+         <system-err><![CDATA[21-10-2025T20:15:53 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Add Duplicate Custom Group" time="38.735" classname="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Add Duplicate Custom Group" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:16:35 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Add Duplicate Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Add Duplicate Custom Group
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:16:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:16:36 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:16:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:16:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:16:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:16:36 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:16:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:16:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:16:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:37 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:16:38 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:16:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:16:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:16:48 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:16:48 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:16:48 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:16:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:16:49 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:16:49 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:16:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:50 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:16:50 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:16:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:16:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:16:51 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:16:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:16:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/FIM/Custom Groups Page/Add Custom Group_btn"), 35): Object 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clickable
+
+21-10-2025T20:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clickable
+
+21-10-2025T20:16:52 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Can Not Add Duplicate Custom Group.run(Can Not Add Duplicate Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:17:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:17:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:17:09 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:17:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:17:11 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:17:11 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Can Not Add Duplicate Custom Group.run(Can Not Add Duplicate Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:17:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FIM/Custom Groups Page/Add Custom Group_btn")): Object: 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clicked on
+
+21-10-2025T20:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clicked on
+
+21-10-2025T20:17:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FIM/Custom Groups Page/New Custom Group_txt"), "Turkey Hill"): Keys 'Turkey Hill' sent to object: 'Object Repository/FIM/Custom Groups Page/New Custom Group_txt'
+
+21-10-2025T20:17:13 - [MESSAGE][PASSED] - Keys 'Turkey Hill' sent to object: 'Object Repository/FIM/Custom Groups Page/New Custom Group_txt'
+
+21-10-2025T20:17:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FIM/Custom Groups Page/Save Custom Group_btn")): Object: 'Object Repository/FIM/Custom Groups Page/Save Custom Group_btn' is clicked on
+
+21-10-2025T20:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/Save Custom Group_btn' is clicked on
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Custom Groups Page/Duplicate CG Exists Error Message"), 10): Object 'Object Repository/FIM/Custom Groups Page/Duplicate CG Exists Error Message' is present
+
+21-10-2025T20:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Duplicate CG Exists Error Message' is present
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Custom Groups Page/Duplicate CG Exists Error Message")): Object 'Object Repository/FIM/Custom Groups Page/Duplicate CG Exists Error Message' is visible
+
+21-10-2025T20:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Duplicate CG Exists Error Message' is visible
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Custom Groups Page/Duplicate CG Exists Error Message"), "Custom Group already exists"): Actual text and expected text of test object 'Object Repository/FIM/Custom Groups Page/Duplicate CG Exists Error Message' are matched.
+
+21-10-2025T20:17:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Custom Groups Page/Duplicate CG Exists Error Message' are matched.
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Delete Custom Group When Assigned to Site" time="39.68" classname="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Delete Custom Group When Assigned to Site" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:17:14 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Delete Custom Group When Assigned to Site: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Can Not Delete Custom Group When Assigned to Site
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:17:14 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:17:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:17:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:17:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:17:14 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:17:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:17:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:17:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:16 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:17:16 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:17:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:17:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:17:26 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:17:26 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:17:26 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:17:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:17:27 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:17:28 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:17:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:29 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:17:29 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:17:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:30 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:17:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:17:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Custom Groups Page/Filter_txt"), 300): Object 'Object Repository/FIM/Custom Groups Page/Filter_txt' is present
+
+21-10-2025T20:17:30 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Filter_txt' is present
+
+21-10-2025T20:17:30 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Can Not Delete Custom Group When Assigned to Site.run(Can Not Delete Custom Group When Assigned to Site:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:17:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:17:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:17:47 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:17:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:17:49 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:17:49 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Can Not Delete Custom Group When Assigned to Site.run(Can Not Delete Custom Group When Assigned to Site:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:17:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Custom Groups Page/Filter_txt"), "Meijer"): Keys 'Meijer' sent to object: 'Object Repository/FIM/Custom Groups Page/Filter_txt'
+
+21-10-2025T20:17:51 - [MESSAGE][PASSED] - Keys 'Meijer' sent to object: 'Object Repository/FIM/Custom Groups Page/Filter_txt'
+
+21-10-2025T20:17:51 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Custom Groups Page/1st Delete Custom Group_btn")): Object: 'Object Repository/FIM/Custom Groups Page/1st Delete Custom Group_btn' is clicked on
+
+21-10-2025T20:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/1st Delete Custom Group_btn' is clicked on
+
+21-10-2025T20:17:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-10-2025T20:17:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Custom Groups Page/Can Not Delete CG Error Message"), 10): Object 'Object Repository/FIM/Custom Groups Page/Can Not Delete CG Error Message' is present
+
+21-10-2025T20:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Can Not Delete CG Error Message' is present
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Custom Groups Page/Can Not Delete CG Error Message")): Object 'Object Repository/FIM/Custom Groups Page/Can Not Delete CG Error Message' is visible
+
+21-10-2025T20:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Can Not Delete CG Error Message' is visible
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Custom Groups Page/Can Not Delete CG Error Message"), "MEIJER is currently assigned to a Site. Make sure it is not assigned to a Site before deleting it"): Actual text and expected text of test object 'Object Repository/FIM/Custom Groups Page/Can Not Delete CG Error Message' are matched.
+
+21-10-2025T20:17:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Custom Groups Page/Can Not Delete CG Error Message' are matched.
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group" time="41.864" classname="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)&#xa;	at Edit Custom Group.run(Edit Custom Group:50)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group&#xa;Cancel&#xa;Save' and expected text 'Custom Group updated successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[21-10-2025T20:17:54 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Edit Custom Group.run(Edit Custom Group:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group updated successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:17:54 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:17:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:17:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:17:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:17:54 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:17:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:17:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:17:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:17:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:17:56 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:17:56 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:17:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:18:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:18:06 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:18:06 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:18:06 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:18:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:18:07 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:18:07 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:18:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:08 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:18:08 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:18:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:09 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:18:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:18:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Custom Groups Page/Add Custom Group_btn"), 35): Object 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clickable
+
+21-10-2025T20:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Add Custom Group_btn' is clickable
+
+21-10-2025T20:18:10 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Edit Custom Group.run(Edit Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:18:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:18:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:18:27 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:18:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:18:29 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:18:29 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Edit Custom Group.run(Edit Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:18:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Custom Groups Page/Filter_txt"), CustomGroup1): Keys 'Harlem Heights' sent to object: 'Object Repository/FIM/Custom Groups Page/Filter_txt'
+
+21-10-2025T20:18:30 - [MESSAGE][PASSED] - Keys 'Harlem Heights' sent to object: 'Object Repository/FIM/Custom Groups Page/Filter_txt'
+
+21-10-2025T20:18:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:31 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Custom Groups Page/1st Custom Group Edit_btn")): Object: 'Object Repository/FIM/Custom Groups Page/1st Custom Group Edit_btn' is clicked on
+
+21-10-2025T20:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/1st Custom Group Edit_btn' is clicked on
+
+21-10-2025T20:18:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:18:33 - [TEST_STEP][PASSED] - clearText(findTestObject("FIM/Custom Groups Page/Edit Custom Group_txt")): Text of object 'Object Repository/FIM/Custom Groups Page/Edit Custom Group_txt' is cleared
+
+21-10-2025T20:18:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/FIM/Custom Groups Page/Edit Custom Group_txt' is cleared
+
+21-10-2025T20:18:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:18:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:18:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Custom Groups Page/Edit Custom Group_txt"), EditCustomGroup): Keys 'Upper Manhatten' sent to object: 'Object Repository/FIM/Custom Groups Page/Edit Custom Group_txt'
+
+21-10-2025T20:18:35 - [MESSAGE][PASSED] - Keys 'Upper Manhatten' sent to object: 'Object Repository/FIM/Custom Groups Page/Edit Custom Group_txt'
+
+21-10-2025T20:18:35 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Custom Groups Page/Save Custom Group_btn")): Object: 'Object Repository/FIM/Custom Groups Page/Save Custom Group_btn' is clicked on
+
+21-10-2025T20:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/Save Custom Group_btn' is clicked on
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Custom Groups Page/Custom Group Edit Success Message"), 10): Object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' is present
+
+21-10-2025T20:18:36 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' is present
+
+21-10-2025T20:18:36 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("FIM/Custom Groups Page/Custom Group Edit Success Message"), "Custom Group updated successfully"): Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Edit Custom Group.run(Edit Custom Group:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group updated successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T20:18:36 - [MESSAGE][FAILED] - Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group updated successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group updated successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Edit Custom Group.run(Edit Custom Group:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:18:36 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Edit Custom Group.run(Edit Custom Group:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group updated successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group
+
+21-10-2025T20:18:36 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:18:36 - [MESSAGE][PASSED] - Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/']]></system-out>
+         <system-err><![CDATA[21-10-2025T20:17:54 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Edit Custom Group FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Edit Custom Group.run(Edit Custom Group:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group updated successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Edit Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Delete Custom Group" time="40.583" classname="Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Delete Custom Group" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:18:36 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Delete Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Delete Custom Group
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:18:36 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:18:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:18:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:18:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:18:36 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:18:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:18:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:18:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:38 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:18:38 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:18:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:18:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:18:48 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:18:48 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:18:48 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:18:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:18:49 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:18:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:18:51 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:18:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:18:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:18:52 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:18:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:18:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Hamburger Menu List/Hamburger_menu"), 35): Object 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clickable
+
+21-10-2025T20:18:52 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clickable
+
+21-10-2025T20:18:52 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Delete Custom Group.run(Delete Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:19:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:19:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:19:09 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:19:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:19:11 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:19:11 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Delete Custom Group.run(Delete Custom Group:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:19:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:19:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:19:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Custom Groups Page/Filter_txt"), EditCustomGroup): Keys 'Upper Manhatten' sent to object: 'Object Repository/FIM/Custom Groups Page/Filter_txt'
+
+21-10-2025T20:19:12 - [MESSAGE][PASSED] - Keys 'Upper Manhatten' sent to object: 'Object Repository/FIM/Custom Groups Page/Filter_txt'
+
+21-10-2025T20:19:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:19:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:19:14 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Custom Groups Page/1st Delete Custom Group_btn")): Object: 'Object Repository/FIM/Custom Groups Page/1st Delete Custom Group_btn' is clicked on
+
+21-10-2025T20:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/1st Delete Custom Group_btn' is clicked on
+
+21-10-2025T20:19:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:19:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:19:16 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Custom Groups Page/Delete Custom Group Confirmation_btn")): Object: 'Object Repository/FIM/Custom Groups Page/Delete Custom Group Confirmation_btn' is clicked on
+
+21-10-2025T20:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Custom Groups Page/Delete Custom Group Confirmation_btn' is clicked on
+
+21-10-2025T20:19:16 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:19:16 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:19:16 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:19:16 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T20:15:53 - [TEST_SUITE][FAILED] - KGL Admin - Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[21-10-2025T20:15:53 - [TEST_SUITE][FAILED] - KGL Admin - Custom Group: Test Cases/FIM/UI/KGL/Admin/Custom Groups Page/Add Custom Group FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Add Custom Group.run(Add Custom Group:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090746730.run(TempTestSuite1761090746730.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group
+Cancel
+Save' and expected text 'Custom Group created successfully' of test object 'Object Repository/FIM/Custom Groups Page/Custom Group Success Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

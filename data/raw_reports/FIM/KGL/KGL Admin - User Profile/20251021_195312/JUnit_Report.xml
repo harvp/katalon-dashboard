@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KGL Admin - User Profile" time="24.171" tests="1" failures="0" errors="0">
+   <testsuite name="KGL Admin - User Profile" tests="1" failures="0" errors="0" time="24.171" skipped="0" timestamp="21-10-2025T21:37:30" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/FIM/Regression/UI/KGL/KGL Admin - User Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - User Profile\\20251021_195312"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - User Profile\\20251021_195312\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="f3dfc19f786019776a2bf697a797c54f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/User Profile Page/Verify User Profile Option is Not Displayed" time="23.97" classname="Test Cases/FIM/UI/KGL/Admin/User Profile Page/Verify User Profile Option is Not Displayed" status="PASSED">
+         <system-out><![CDATA[21-10-2025T21:37:30 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/User Profile Page/Verify User Profile Option is Not Displayed: Test Cases/FIM/UI/KGL/Admin/User Profile Page/Verify User Profile Option is Not Displayed
+
+21-10-2025T21:37:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T21:37:30 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T21:37:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T21:37:31 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T21:37:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T21:37:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T21:37:31 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T21:37:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T21:37:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T21:37:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T21:37:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T21:37:34 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T21:37:36 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T21:37:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T21:37:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T21:37:46 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T21:37:46 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T21:37:46 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T21:37:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T21:37:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T21:37:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T21:37:47 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T21:37:47 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T21:37:47 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T21:37:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T21:37:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T21:37:48 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T21:37:48 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T21:37:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T21:37:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T21:37:49 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T21:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T21:37:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T21:37:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Hamburger Menu List/Hamburger_menu"), 300): Object 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clickable
+
+21-10-2025T21:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clickable
+
+21-10-2025T21:37:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+21-10-2025T21:37:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+21-10-2025T21:37:54 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Hamburger Menu List/Hamburger_menu")): Object: 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clicked on
+
+21-10-2025T21:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clicked on
+
+21-10-2025T21:37:54 - [TEST_STEP][PASSED] - verifyTextNotPresent("User Profiles", false): Text 'User Profiles' is not present on page
+
+21-10-2025T21:37:54 - [MESSAGE][PASSED] - Text 'User Profiles' is not present on page
+
+21-10-2025T21:37:54 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T21:37:54 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T21:37:54 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T21:37:54 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T21:37:30 - [TEST_SUITE][PASSED] - KGL Admin - User Profile: Test Cases/FIM/UI/KGL/Admin/User Profile Page/Verify User Profile Option is Not Displayed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

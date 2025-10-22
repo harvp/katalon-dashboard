@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KAG Admin - Site Profile" time="150.269" tests="4" failures="1" errors="0">
+   <testsuite name="KAG Admin - Site Profile" tests="4" failures="1" errors="0" time="150.269" skipped="0" timestamp="21-10-2025T22:14:27" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/FIM/Regression/UI/Kenan/Admin Access/KAG Admin - Site Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\Kenan\\Admin Access\\KAG Admin - Site Profile\\20251021_195351"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\Kenan\\Admin Access\\KAG Admin - Site Profile\\20251021_195351\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="864cee2b4680d1937ae9f7fdb10c843a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Can Not Create Order - No Values Assigned" time="24.546" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Can Not Create Order - No Values Assigned" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:14:27 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Can Not Create Order - No Values Assigned: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Can Not Create Order - No Values Assigned
+
+21-10-2025T22:14:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:14:27 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:14:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:14:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:14:27 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:14:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:14:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:14:29 - [TEST_STEP][PASSED] - navigateToUrl(TURK132SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK132?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:14:30 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK132?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:14:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:14:30 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:14:30 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:14:31 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:14:31 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:14:31 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:14:31 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:14:31 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Can Not Create Order - No Values Assigned.run(Can Not Create Order - No Values Assigned:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:14:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:14:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:14:48 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:14:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:14:50 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:14:50 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Can Not Create Order - No Values Assigned.run(Can Not Create Order - No Values Assigned:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:14:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:14:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Orders/Create Order/CreateOrder_btn"), 300): Object 'Object Repository/FIM/Sites Page/Orders/Create Order/CreateOrder_btn' is clickable
+
+21-10-2025T22:14:51 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Orders/Create Order/CreateOrder_btn' is clickable
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Orders/Create Order/CreateOrder_btn")): Object: 'Object Repository/FIM/Sites Page/Orders/Create Order/CreateOrder_btn' is clicked on
+
+21-10-2025T22:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Orders/Create Order/CreateOrder_btn' is clicked on
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Sites Page/Site Profile Page/No Values Assigned Message"), 5): Object 'Object Repository/FIM/Sites Page/Site Profile Page/No Values Assigned Message' is present
+
+21-10-2025T22:14:51 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/No Values Assigned Message' is present
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Sites Page/Site Profile Page/No Values Assigned Message"), "Please make sure the Shipper, Supplier and Account Of are assigned to the Commodity Profile before creating a new Order"): Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/No Values Assigned Message' are matched.
+
+21-10-2025T22:14:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/No Values Assigned Message' are matched.
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Region to a Site" time="51.269" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Region to a Site" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:14:51 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Region to a Site: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Region to a Site
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:14:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:14:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:14:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:14:52 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:14:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:14:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:14:53 - [TEST_STEP][PASSED] - navigateToUrl(KAGAFM39SiteURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/AFM39?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:14:54 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/AFM39?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:14:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:14:54 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:14:54 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:14:54 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:14:54 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:14:54 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Assigning Region to a Site.run(Assigning Region to a Site:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:15:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:15:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:15:12 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:15:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:15:14 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:15:14 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Assigning Region to a Site.run(Assigning Region to a Site:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:15:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Tab"), 300): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clickable
+
+21-10-2025T22:15:14 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clickable
+
+21-10-2025T22:15:14 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Tab")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clicked on
+
+21-10-2025T22:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clicked on
+
+21-10-2025T22:15:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Profile Page/Region_dropdown"), "Denver"): Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Region_dropdown'
+
+21-10-2025T22:15:16 - [MESSAGE][PASSED] - Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Region_dropdown'
+
+21-10-2025T22:15:16 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Save_btn")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:15:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), 10): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:15:18 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:15:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message")): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:15:18 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:15:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), "Site updated successfully"): Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:15:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:15:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Region Selection_dropdown"), "Denver"): Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:15:20 - [MESSAGE][PASSED] - Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:15:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:15:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:15:25 - [TEST_STEP][PASSED] - for (def index : (0..55)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:26 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:26 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), "AFM39"): Keys 'AFM39' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:34 - [MESSAGE][PASSED] - Keys 'AFM39' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T22:15:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Sites Page/Site ID_lbl"), "AFM39"): Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are matched.
+
+21-10-2025T22:15:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are matched.
+
+21-10-2025T22:15:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Profile Page/Region_dropdown"), "unassigned"): Keys 'unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Region_dropdown'
+
+21-10-2025T22:15:40 - [MESSAGE][PASSED] - Keys 'unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Region_dropdown'
+
+21-10-2025T22:15:40 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Save_btn")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:15:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:15:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:15:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), 10): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:15:42 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:15:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message")): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:15:42 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:15:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), "Site updated successfully"): Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:15:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:15:43 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:15:43 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:15:43 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:15:43 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Bill To to a Site" time="35.434" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Bill To to a Site" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:15:43 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Bill To to a Site: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Bill To to a Site
+
+21-10-2025T22:15:43 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:15:43 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:15:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:15:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:15:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:15:43 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:15:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:15:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:15:44 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:15:44 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:15:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:15:45 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:15:45 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:15:45 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:15:45 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:15:45 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:15:45 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:15:45 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Assigning Bill To to a Site.run(Assigning Bill To to a Site:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:16:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:16:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:16:02 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:16:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:16:04 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:16:04 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Assigning Bill To to a Site.run(Assigning Bill To to a Site:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:16:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:16:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:16:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Tab"), 300): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clickable
+
+21-10-2025T22:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clickable
+
+21-10-2025T22:16:05 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Tab")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clicked on
+
+21-10-2025T22:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clicked on
+
+21-10-2025T22:16:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Profile Page/Bill To_dropdown"), "TURKEYHI"): Keys 'TURKEYHI' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Bill To_dropdown'
+
+21-10-2025T22:16:07 - [MESSAGE][PASSED] - Keys 'TURKEYHI' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Bill To_dropdown'
+
+21-10-2025T22:16:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:09 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Save_btn")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:16:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), 10): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:16:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message")): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:16:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), "Site updated successfully"): Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:16:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Profile Page/Bill To_dropdown"), "unassigned"): Keys 'unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Bill To_dropdown'
+
+21-10-2025T22:16:14 - [MESSAGE][PASSED] - Keys 'unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Bill To_dropdown'
+
+21-10-2025T22:16:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:16 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Save_btn")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:16:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), 10): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message")): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), "Site updated successfully"): Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:16:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site" time="38.833" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)&#xa;	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[21-10-2025T22:16:18 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:16:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:16:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:16:18 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:16:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:16:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:16:19 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:16:19 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:16:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:16:20 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:16:20 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:16:20 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:16:20 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:16:20 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:16:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:16:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:16:37 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:16:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:16:39 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:16:39 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:16:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:16:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:16:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Tab"), 300): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clickable
+
+21-10-2025T22:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clickable
+
+21-10-2025T22:16:40 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Tab")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clicked on
+
+21-10-2025T22:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Tab' is clicked on
+
+21-10-2025T22:16:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Profile Page/Custom Group_dropdown"), "Meijer"): Keys 'Meijer' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Custom Group_dropdown'
+
+21-10-2025T22:16:43 - [MESSAGE][PASSED] - Keys 'Meijer' sent to object: 'Object Repository/FIM/Sites Page/Site Profile Page/Custom Group_dropdown'
+
+21-10-2025T22:16:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:45 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Profile Page/Site Profile Save_btn")): Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Profile Page/Site Profile Save_btn' is clicked on
+
+21-10-2025T22:16:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), 10): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is present
+
+21-10-2025T22:16:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message")): Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' is visible
+
+21-10-2025T22:16:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FIM/Sites Page/Site Profile Page/Site Values Updated Success Message"), "Site updated successfully"): Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:16:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FIM/Sites Page/Site Profile Page/Site Values Updated Success Message' are matched.
+
+21-10-2025T22:16:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:49 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Site Filtering/Refresh_Current_Site_Data_btn")): Object: 'Object Repository/FIM/Sites Page/Site Filtering/Refresh_Current_Site_Data_btn' is clicked on
+
+21-10-2025T22:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Site Filtering/Refresh_Current_Site_Data_btn' is clicked on
+
+21-10-2025T22:16:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T22:16:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T22:16:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), "Meijer"): Keys 'Meijer' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:16:51 - [MESSAGE][PASSED] - Keys 'Meijer' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:16:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:16:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:16:56 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("FIM/Sites Page/Site ID_lbl"), "AFM39"): Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T22:16:56 - [MESSAGE][FAILED] - Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:16:56 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T22:16:57 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=13&r&i=AllConsignees&sorted=false'
+
+21-10-2025T22:16:57 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:16:57 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:16:57 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=13&r&i=AllConsignees&sorted=false'
+
+21-10-2025T22:16:57 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=13&r&i=AllConsignees&sorted=false'
+
+21-10-2025T22:16:57 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site
+
+21-10-2025T22:16:57 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site
+
+21-10-2025T22:16:57 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=13&r&i=AllConsignees&sorted=false'
+
+21-10-2025T22:16:57 - [MESSAGE][PASSED] - Current window's url is: 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=13&r&i=AllConsignees&sorted=false']]></system-out>
+         <system-err><![CDATA[21-10-2025T22:16:18 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T22:14:27 - [TEST_SUITE][FAILED] - KAG Admin - Site Profile: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[21-10-2025T22:14:27 - [TEST_SUITE][FAILED] - KAG Admin - Site Profile: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Profile/Assigning Custom Group to a Site FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Assigning Custom Group to a Site.run(Assigning Custom Group to a Site:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090831935.run(TempTestSuite1761090831935.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TURK124' and expected text 'AFM39' of test object 'Object Repository/FIM/Sites Page/Site ID_lbl' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

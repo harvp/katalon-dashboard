@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KGL Admin - Sites - Calculator" time="103.486" tests="2" failures="0" errors="0">
+   <testsuite name="KGL Admin - Sites - Calculator" tests="2" failures="0" errors="0" time="103.486" skipped="0" timestamp="21-10-2025T20:22:23" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/FIM/Regression/UI/KGL/KGL Admin - Sites - Calculator">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - Sites - Calculator\\20251021_195238"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - Sites - Calculator\\20251021_195238\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="ddc49a92cda1c687eec75882c0067fcc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Edit Sales via Calculator" time="49.978" classname="Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Edit Sales via Calculator" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:22:23 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Edit Sales via Calculator: Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Edit Sales via Calculator
+
+21-10-2025T20:22:24 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:22:24 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:22:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:22:24 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:22:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:22:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:22:24 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:22:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:22:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:22:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:22:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:22:27 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:22:28 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:22:28 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:22:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:22:38 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:22:38 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:22:38 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:22:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:22:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:22:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:22:39 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:22:39 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:22:40 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:22:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:22:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:22:41 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:22:41 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:22:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:22:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:22:42 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:22:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:22:42 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Edit Sales via Calculator.run(Edit Sales via Calculator:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090758383.run(TempTestSuite1761090758383.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:22:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:22:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:22:59 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:23:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:23:01 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:23:01 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Edit Sales via Calculator.run(Edit Sales via Calculator:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090758383.run(TempTestSuite1761090758383.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:23:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:02 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Hamburger Menu List/Hamburger_menu")): Object: 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clicked on
+
+21-10-2025T20:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clicked on
+
+21-10-2025T20:23:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Hamburger Menu List/Sites_list (1)"), 10): Object 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is present
+
+21-10-2025T20:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is present
+
+21-10-2025T20:23:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:03 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Hamburger Menu List/Sites_list (1)")): Object: 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is clicked on
+
+21-10-2025T20:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is clicked on
+
+21-10-2025T20:23:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Sites Page/Calculator/Calculator Tab"), 10): Object 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is present
+
+21-10-2025T20:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is present
+
+21-10-2025T20:23:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FIM/Sites Page/Site Filtering/Region Selection_dropdown"), "KAG LOGISTICS", false): All options with label 'KAG LOGISTICS' are selected in object 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown' 
+
+21-10-2025T20:23:06 - [MESSAGE][PASSED] - All options with label 'KAG LOGISTICS' are selected in object 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown' 
+
+21-10-2025T20:23:06 - [TEST_STEP][PASSED] - while (i < 60 == true): null
+
+21-10-2025T20:23:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), "TURK132 - 798 North", STOP_ON_FAILURE): Keys 'TURK132 - 798 North' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:11 - [MESSAGE][PASSED] - Keys 'TURK132 - 798 North' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(ENTER), STOP_ON_FAILURE): Keys 'ENTER + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:12 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Calculator/Calculator Tab")): Object: 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is clicked on
+
+21-10-2025T20:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is clicked on
+
+21-10-2025T20:23:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Sites Page/Calculator/Tank 1 Sales_txt"), "87"): Text '87' is set on object 'Object Repository/FIM/Sites Page/Calculator/Tank 1 Sales_txt'
+
+21-10-2025T20:23:13 - [MESSAGE][PASSED] - Text '87' is set on object 'Object Repository/FIM/Sites Page/Calculator/Tank 1 Sales_txt'
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Calculator/Calculate_btn")): Object: 'Object Repository/FIM/Sites Page/Calculator/Calculate_btn' is clicked on
+
+21-10-2025T20:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Calculator/Calculate_btn' is clicked on
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Verify Calculator Updates With New Inventory" time="53.299" classname="Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Verify Calculator Updates With New Inventory" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:23:13 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Verify Calculator Updates With New Inventory: Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Verify Calculator Updates With New Inventory
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:23:13 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:23:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:23:14 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:23:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:23:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:23:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:23:14 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:23:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:23:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:23:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:16 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:23:16 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:23:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:23:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:23:26 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:23:26 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:23:26 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:23:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:23:27 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:23:27 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:23:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:28 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:23:28 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:23:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:29 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:23:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:23:29 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Verify Calculator Updates With New Inventory.run(Verify Calculator Updates With New Inventory:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090758383.run(TempTestSuite1761090758383.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:23:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:23:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:23:46 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:23:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:23:48 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:23:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at Verify Calculator Updates With New Inventory.run(Verify Calculator Updates With New Inventory:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090758383.run(TempTestSuite1761090758383.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:23:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:49 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Hamburger Menu List/Hamburger_menu")): Object: 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clicked on
+
+21-10-2025T20:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clicked on
+
+21-10-2025T20:23:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Hamburger Menu List/Sites_list (1)"), 10): Object 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is present
+
+21-10-2025T20:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is present
+
+21-10-2025T20:23:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:51 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Hamburger Menu List/Sites_list (1)")): Object: 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is clicked on
+
+21-10-2025T20:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Hamburger Menu List/Sites_list (1)' is clicked on
+
+21-10-2025T20:23:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Sites Page/Calculator/Calculator Tab"), 10): Object 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is present
+
+21-10-2025T20:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is present
+
+21-10-2025T20:23:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FIM/Sites Page/Site Filtering/Region Selection_dropdown"), "KAG LOGISTICS", false): All options with label 'KAG LOGISTICS' are selected in object 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown' 
+
+21-10-2025T20:23:52 - [MESSAGE][PASSED] - All options with label 'KAG LOGISTICS' are selected in object 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown' 
+
+21-10-2025T20:23:52 - [TEST_STEP][PASSED] - while (i < 60 == true): null
+
+21-10-2025T20:23:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(BACK_SPACE), STOP_ON_FAILURE): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - (i++): null
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), "TURK132 - 798 North", STOP_ON_FAILURE): Keys 'TURK132 - 798 North' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [MESSAGE][PASSED] - Keys 'TURK132 - 798 North' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), Keys.chord(ENTER), STOP_ON_FAILURE): Keys 'ENTER + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt'
+
+21-10-2025T20:23:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:23:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:23:58 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Inventories/Create/Add Inventories_btn")): Object: 'Object Repository/FIM/Sites Page/Inventories/Create/Add Inventories_btn' is clicked on
+
+21-10-2025T20:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Inventories/Create/Add Inventories_btn' is clicked on
+
+21-10-2025T20:23:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:24:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:24:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Inventories/Create/Tank_1_txt"), "600"): Keys '600' sent to object: 'Object Repository/FIM/Sites Page/Inventories/Create/Tank_1_txt'
+
+21-10-2025T20:24:00 - [MESSAGE][PASSED] - Keys '600' sent to object: 'Object Repository/FIM/Sites Page/Inventories/Create/Tank_1_txt'
+
+21-10-2025T20:24:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:24:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:24:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Inventories/Create/Tank_2_txt"), "600"): Keys '600' sent to object: 'Object Repository/FIM/Sites Page/Inventories/Create/Tank_2_txt'
+
+21-10-2025T20:24:02 - [MESSAGE][PASSED] - Keys '600' sent to object: 'Object Repository/FIM/Sites Page/Inventories/Create/Tank_2_txt'
+
+21-10-2025T20:24:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:24:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:24:04 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Inventories/Create/Save Inventories_btn")): Object: 'Object Repository/FIM/Sites Page/Inventories/Create/Save Inventories_btn' is clicked on
+
+21-10-2025T20:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Inventories/Create/Save Inventories_btn' is clicked on
+
+21-10-2025T20:24:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:24:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:24:07 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Sites Page/Calculator/Calculator Tab")): Object: 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is clicked on
+
+21-10-2025T20:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Sites Page/Calculator/Calculator Tab' is clicked on
+
+21-10-2025T20:24:07 - [TEST_STEP][PASSED] - verifyMatch("600", "600", true): Actual text '600' and expected text '600' are matched  using regular expression
+
+21-10-2025T20:24:07 - [MESSAGE][PASSED] - Actual text '600' and expected text '600' are matched  using regular expression
+
+21-10-2025T20:24:07 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:24:07 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:24:07 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:24:07 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T20:22:23 - [TEST_SUITE][PASSED] - KGL Admin - Sites - Calculator: Test Cases/FIM/UI/KGL/Admin/Sites Page/Calculator/Verify Calculator Updates With New Inventory]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

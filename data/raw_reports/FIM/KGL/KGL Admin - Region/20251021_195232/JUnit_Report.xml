@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KGL Admin - Region" time="161.252" tests="4" failures="1" errors="0">
+   <testsuite name="KGL Admin - Region" tests="4" failures="1" errors="0" time="161.252" skipped="0" timestamp="21-10-2025T20:19:29" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/FIM/Regression/UI/KGL/KGL Admin - Region">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - Region\\20251021_195232"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\KGL\\KGL Admin - Region\\20251021_195232\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="d9f778a1a989638d72ce1e534a11a02e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Region Page/Adding New Region" time="39.197" classname="Test Cases/FIM/UI/KGL/Admin/Region Page/Adding New Region" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:19:29 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Region Page/Adding New Region: Test Cases/FIM/UI/KGL/Admin/Region Page/Adding New Region
+
+21-10-2025T20:19:29 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:19:29 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:19:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:19:30 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:19:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:19:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:19:30 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:19:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:19:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:19:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:19:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:19:33 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:19:34 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:19:34 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:19:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:19:44 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:19:44 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:19:44 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:19:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:19:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:19:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:19:45 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:19:45 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:19:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:19:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:19:46 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:19:46 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:19:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:19:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:19:47 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:19:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:19:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Regions Page/Add Region_btn (1)"), 35): Object 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clickable
+
+21-10-2025T20:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clickable
+
+21-10-2025T20:19:48 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Adding New Region.run(Adding New Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:20:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:20:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:20:05 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:20:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:20:07 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:20:07 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Adding New Region.run(Adding New Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:20:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/Add Region_btn (1)")): Object: 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clicked on
+
+21-10-2025T20:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clicked on
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Regions Page/New Region_txt"), Region1): Keys 'Malibu' sent to object: 'Object Repository/FIM/Regions Page/New Region_txt'
+
+21-10-2025T20:20:08 - [MESSAGE][PASSED] - Keys 'Malibu' sent to object: 'Object Repository/FIM/Regions Page/New Region_txt'
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Regions Page/Save Region_btn"), 3): Object 'Object Repository/FIM/Regions Page/Save Region_btn' is clickable
+
+21-10-2025T20:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Regions Page/Save Region_btn' is clickable
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/Save Region_btn")): Object: 'Object Repository/FIM/Regions Page/Save Region_btn' is clicked on
+
+21-10-2025T20:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/Save Region_btn' is clicked on
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:20:08 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region" time="39.708" classname="Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)&#xa;	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[21-10-2025T20:20:08 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region: Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+21-10-2025T20:20:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:20:09 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:20:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:20:09 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:20:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:20:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:20:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:20:09 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:20:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:20:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:20:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:11 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:20:11 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:20:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:20:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:20:21 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:20:21 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:20:21 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:20:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:20:22 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:20:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:20:23 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:20:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:24 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:20:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:20:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Regions Page/Add Region_btn (1)"), 35): Object 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clickable
+
+21-10-2025T20:20:25 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clickable
+
+21-10-2025T20:20:25 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:20:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:20:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:20:42 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:20:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:20:44 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:20:44 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:20:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:45 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/Add Region_btn (1)")): Object: 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clicked on
+
+21-10-2025T20:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clicked on
+
+21-10-2025T20:20:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Regions Page/New Region_txt"), "Elkhorn"): Keys 'Elkhorn' sent to object: 'Object Repository/FIM/Regions Page/New Region_txt'
+
+21-10-2025T20:20:46 - [MESSAGE][PASSED] - Keys 'Elkhorn' sent to object: 'Object Repository/FIM/Regions Page/New Region_txt'
+
+21-10-2025T20:20:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:47 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/Save Region_btn")): Object: 'Object Repository/FIM/Regions Page/Save Region_btn' is clicked on
+
+21-10-2025T20:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/Save Region_btn' is clicked on
+
+21-10-2025T20:20:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FIM/Regions Page/Duplicate Region Exists Error Message"), 10): Object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' is present
+
+21-10-2025T20:20:47 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' is present
+
+21-10-2025T20:20:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FIM/Regions Page/Duplicate Region Exists Error Message")): Object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' is visible
+
+21-10-2025T20:20:47 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' is visible
+
+21-10-2025T20:20:47 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("FIM/Regions Page/Duplicate Region Exists Error Message"), "Region already exists"): Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T20:20:47 - [MESSAGE][FAILED] - Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:20:47 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region
+
+21-10-2025T20:20:48 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/'
+
+21-10-2025T20:20:48 - [MESSAGE][PASSED] - Current window's url is: 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/']]></system-out>
+         <system-err><![CDATA[21-10-2025T20:20:08 - [TEST_CASE][FAILED] - Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region: Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Region Page/Edit Region" time="40.824" classname="Test Cases/FIM/UI/KGL/Admin/Region Page/Edit Region" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:20:48 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Region Page/Edit Region: Test Cases/FIM/UI/KGL/Admin/Region Page/Edit Region
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:20:48 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:20:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:20:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:20:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:20:48 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:20:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:20:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:20:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:20:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:20:50 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:20:51 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:20:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:21:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:21:01 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:21:01 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:21:01 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:21:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:21:02 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:21:02 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:21:02 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:21:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:03 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:21:03 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:21:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:04 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:21:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:21:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Regions Page/Add Region_btn (1)"), 35): Object 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clickable
+
+21-10-2025T20:21:05 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Regions Page/Add Region_btn (1)' is clickable
+
+21-10-2025T20:21:05 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Edit Region.run(Edit Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:21:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:21:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:21:22 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:21:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:21:24 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:21:24 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Edit Region.run(Edit Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:21:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:25 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/1st Region Edit_btn")): Object: 'Object Repository/FIM/Regions Page/1st Region Edit_btn' is clicked on
+
+21-10-2025T20:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/1st Region Edit_btn' is clicked on
+
+21-10-2025T20:21:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:21:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:21:27 - [TEST_STEP][PASSED] - clearText(findTestObject("FIM/Regions Page/Edit Region_txt (1)")): Text of object 'Object Repository/FIM/Regions Page/Edit Region_txt (1)' is cleared
+
+21-10-2025T20:21:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/FIM/Regions Page/Edit Region_txt (1)' is cleared
+
+21-10-2025T20:21:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-10-2025T20:21:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Regions Page/Edit Region_txt (1)"), EditRegion): Keys 'Napa Valley' sent to object: 'Object Repository/FIM/Regions Page/Edit Region_txt (1)'
+
+21-10-2025T20:21:29 - [MESSAGE][PASSED] - Keys 'Napa Valley' sent to object: 'Object Repository/FIM/Regions Page/Edit Region_txt (1)'
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/Save Region_btn")): Object: 'Object Repository/FIM/Regions Page/Save Region_btn' is clicked on
+
+21-10-2025T20:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/Save Region_btn' is clicked on
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/KGL/Admin/Region Page/Deleting Region" time="41.327" classname="Test Cases/FIM/UI/KGL/Admin/Region Page/Deleting Region" status="PASSED">
+         <system-out><![CDATA[21-10-2025T20:21:29 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/KGL/Admin/Region Page/Deleting Region: Test Cases/FIM/UI/KGL/Admin/Region Page/Deleting Region
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/FIM KGL Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:21:29 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/FIM KGL Admin Login: Test Cases/Utility Scripts/FIM KGL Admin Login
+
+21-10-2025T20:21:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T20:21:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T20:21:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T20:21:29 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T20:21:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T20:21:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T20:21:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:31 - [TEST_STEP][PASSED] - navigateToUrl(KGLCustomGroupUrl): Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:21:31 - [MESSAGE][PASSED] - Navigate to 'https://kaglogistics-inventory-management-portal.qa.thekag.com/custom-group/' successfully
+
+21-10-2025T20:21:31 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-10-2025T20:21:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-10-2025T20:21:41 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Delayed 1 second(s)
+
+21-10-2025T20:21:41 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+21-10-2025T20:21:41 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T20:21:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Username_txt"), 10): Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Username_txt' is present
+
+21-10-2025T20:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), FIMUsername): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:21:43 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T20:21:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:44 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), FIMPassword): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:21:44 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T20:21:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:21:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:21:45 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T20:21:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/FIM KGL Admin Login' successfully
+
+21-10-2025T20:21:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Hamburger Menu List/Hamburger_menu"), 35): Object 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clickable
+
+21-10-2025T20:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Hamburger Menu List/Hamburger_menu' is clickable
+
+21-10-2025T20:21:45 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Deleting Region.run(Deleting Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:22:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:22:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T20:22:02 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T20:22:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T20:22:04 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T20:22:04 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Deleting Region.run(Deleting Region:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T20:22:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T20:22:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T20:22:05 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/1st Delete Region_btn")): Object: 'Object Repository/FIM/Regions Page/1st Delete Region_btn' is clicked on
+
+21-10-2025T20:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/1st Delete Region_btn' is clicked on
+
+21-10-2025T20:22:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Regions Page/Delete Region Confirmation_btn"), 10): Object 'Object Repository/FIM/Regions Page/Delete Region Confirmation_btn' is clickable
+
+21-10-2025T20:22:05 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Regions Page/Delete Region Confirmation_btn' is clickable
+
+21-10-2025T20:22:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T20:22:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T20:22:10 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Regions Page/Delete Region Confirmation_btn")): Object: 'Object Repository/FIM/Regions Page/Delete Region Confirmation_btn' is clicked on
+
+21-10-2025T20:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Regions Page/Delete Region Confirmation_btn' is clicked on
+
+21-10-2025T20:22:10 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T20:22:10 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T20:22:10 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T20:22:10 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T20:19:29 - [TEST_SUITE][FAILED] - KGL Admin - Region: Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[21-10-2025T20:19:29 - [TEST_SUITE][FAILED] - KGL Admin - Region: Test Cases/FIM/UI/KGL/Admin/Region Page/Can Not Add Duplicate Region FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Can Not Add Duplicate Region.run(Can Not Add Duplicate Region:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090752527.run(TempTestSuite1761090752527.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Custom Group already exists' and expected text 'Region already exists' of test object 'Object Repository/FIM/Regions Page/Duplicate Region Exists Error Message' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

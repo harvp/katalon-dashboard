@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KAG Admin - Site Filtering" time="249.1" tests="9" failures="0" errors="0">
+   <testsuite name="KAG Admin - Site Filtering" tests="9" failures="0" errors="0" time="249.1" skipped="0" timestamp="21-10-2025T22:10:04" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/FIM/Regression/UI/Kenan/Admin Access/KAG Admin - Site Filtering">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\Kenan\\Admin Access\\KAG Admin - Site Filtering\\20251021_195346"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\892\\s\\Reports\\20251021_195215\\FIM\\Regression\\UI\\Kenan\\Admin Access\\KAG Admin - Site Filtering\\20251021_195346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="4dcf368e37c60fee4d0f8d9f590a5cae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Selected" time="35.42" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Selected" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:10:05 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Selected: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Selected
+
+21-10-2025T22:10:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:10:05 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:10:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:10:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:10:05 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:10:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:10:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:10:07 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:10:08 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:10:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:10:09 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:10:09 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:10:09 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:10:09 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:10:10 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Custom Group and Region are Selected.run(Filter Sites When Custom Group and Region are Selected:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:10:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:10:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:10:27 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:10:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:10:29 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:10:29 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Custom Group and Region are Selected.run(Filter Sites When Custom Group and Region are Selected:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:10:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:10:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:10:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), 30): Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:10:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Region Selection_dropdown"), "Denver"): Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:10:30 - [MESSAGE][PASSED] - Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:10:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:10:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:10:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), "KROGER"): Keys 'KROGER' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:10:35 - [MESSAGE][PASSED] - Keys 'KROGER' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:10:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:10:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:10:40 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:10:40 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:10:40 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:10:40 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Custom Group is Selected" time="29.735" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Custom Group is Selected" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:10:40 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Custom Group is Selected: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Custom Group is Selected
+
+21-10-2025T22:10:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:10:40 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:10:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:10:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:10:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:10:40 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:10:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:10:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:10:41 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:10:41 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:10:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:10:42 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:10:42 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:10:42 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:10:42 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:10:42 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Only Custom Group is Selected.run(Filter Sites When Only Custom Group is Selected:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:10:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:10:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:10:59 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:11:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:11:01 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:11:01 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Only Custom Group is Selected.run(Filter Sites When Only Custom Group is Selected:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:11:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:11:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:11:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), 300): Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:11:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), "Lehigh"): Keys 'Lehigh' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:11:03 - [MESSAGE][PASSED] - Keys 'Lehigh' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:11:03 - [TEST_STEP][PASSED] - verifyOptionSelectedByIndex(findTestObject("FIM 1.2/Sites Page/Site Filtering/Region Selection_dropdown"), "0", 10): All options with index range in '0' are selected in object 'Object Repository/FIM 1.2/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:11:03 - [MESSAGE][PASSED] - All options with index range in '0' are selected in object 'Object Repository/FIM 1.2/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:11:03 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+21-10-2025T22:11:10 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+21-10-2025T22:11:10 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:11:10 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:11:10 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:11:10 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Region is Selected" time="34.416" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Region is Selected" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:11:10 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Region is Selected: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Only Region is Selected
+
+21-10-2025T22:11:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:11:10 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:11:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:11:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:11:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:11:10 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:11:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:11:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:11:11 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:11:11 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:11:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:11:12 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:11:12 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:11:12 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:11:12 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:11:12 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Only Region is Selected.run(Filter Sites When Only Region is Selected:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:11:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:11:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:11:29 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:11:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:11:31 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:11:31 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Only Region is Selected.run(Filter Sites When Only Region is Selected:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:11:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:11:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:11:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), 300): Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:11:32 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:11:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Region Selection_dropdown"), "Denver"): Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:11:32 - [MESSAGE][PASSED] - Keys 'Denver' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:11:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:11:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:11:37 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("FIM 1.2/Sites Page/Site Filtering/Custom Group Selection_dropdown"), ["RYDER", "KROGER", "7-ELEVEN", "Unassigned", "Unknown"]): Options [RYDER, KROGER, 7-ELEVEN, Unassigned, Unknown] present.
+
+21-10-2025T22:11:39 - [MESSAGE][PASSED] - Options [RYDER, KROGER, 7-ELEVEN, Unassigned, Unknown] present.
+
+21-10-2025T22:11:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:11:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:11:44 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:11:44 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:11:44 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:11:44 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Site Format" time="23.395" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Site Format" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:11:44 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Site Format: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Site Format
+
+21-10-2025T22:11:44 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:11:44 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:11:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:11:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:11:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:11:44 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:11:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:11:45 - [TEST_STEP][PASSED] - navigateToUrl(TURK113SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK113?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:11:45 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK113?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:11:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:11:46 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:11:46 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:11:46 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:11:46 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:11:46 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify Site Format.run(Verify Site Format:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:12:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:12:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:12:03 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:12:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:12:05 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:12:05 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify Site Format.run(Verify Site Format:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:12:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:12:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:12:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FIM/Sites Page/Site Filtering/Site_txt"), 300): Object 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt' is present
+
+21-10-2025T22:12:06 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Site_txt' is present
+
+21-10-2025T22:12:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:12:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:12:07 - [TEST_STEP][PASSED] - verifyTextPresent("TURKEY HILL #113-SINK", true): Text 'TURKEY HILL #113-SINK' is present on page  using regular expression
+
+21-10-2025T22:12:08 - [MESSAGE][PASSED] - Text 'TURKEY HILL #113-SINK' is present on page  using regular expression
+
+21-10-2025T22:12:08 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:12:08 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:12:08 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:12:08 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is an Option for Custom Group" time="25.441" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is an Option for Custom Group" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:12:08 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is an Option for Custom Group: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is an Option for Custom Group
+
+21-10-2025T22:12:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:12:08 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:12:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:12:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:12:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:12:09 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:12:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:12:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:12:10 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:12:10 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:12:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:12:10 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:12:10 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:12:10 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:12:10 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:12:11 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify UNKNOWN is an Option for Custom Group.run(Verify UNKNOWN is an Option for Custom Group:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:12:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:12:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:12:28 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:12:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:12:30 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:12:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify UNKNOWN is an Option for Custom Group.run(Verify UNKNOWN is an Option for Custom Group:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:12:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:12:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:12:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), 300): Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:12:31 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), "Unknown", true, 10): 1 option(s) with label 'Unknown' is/are present in object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'  using regular expression
+
+21-10-2025T22:12:33 - [MESSAGE][PASSED] - 1 option(s) with label 'Unknown' is/are present in object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'  using regular expression
+
+21-10-2025T22:12:33 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:12:33 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:12:33 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:12:33 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is Not an Option for Region" time="22.143" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is Not an Option for Region" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:12:33 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is Not an Option for Region: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify UNKNOWN is Not an Option for Region
+
+21-10-2025T22:12:33 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:12:33 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:12:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:12:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:12:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:12:33 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:12:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:12:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:12:34 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:12:34 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:12:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:12:35 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:12:35 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:12:35 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:12:35 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:12:35 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:12:35 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:12:35 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify UNKNOWN is Not an Option for Region.run(Verify UNKNOWN is Not an Option for Region:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:12:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:12:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:12:52 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:12:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:12:54 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:12:54 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify UNKNOWN is Not an Option for Region.run(Verify UNKNOWN is Not an Option for Region:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:12:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:12:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), 300): Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - verifyOptionNotPresentByLabel(findTestObject("FIM/Sites Page/Site Filtering/Region Selection_dropdown"), "Unknown", false, 10): There is no option with label 'Unknown' present in object 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown' 
+
+21-10-2025T22:12:55 - [MESSAGE][PASSED] - There is no option with label 'Unknown' present in object 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown' 
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Unassigned" time="32.261" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Unassigned" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:12:55 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Unassigned: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Filter Sites When Custom Group and Region are Unassigned
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:12:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:12:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:12:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:12:55 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:12:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:12:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:12:56 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:12:56 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:12:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:12:57 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:12:57 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:12:57 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:12:57 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:12:57 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Custom Group and Region are Unassigned.run(Filter Sites When Custom Group and Region are Unassigned:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:13:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:13:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:13:14 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:13:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:13:16 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:13:16 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Filter Sites When Custom Group and Region are Unassigned.run(Filter Sites When Custom Group and Region are Unassigned:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:13:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:13:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:13:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), 30): Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown' is clickable
+
+21-10-2025T22:13:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Region Selection_dropdown"), "Unassigned"): Keys 'Unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:13:17 - [MESSAGE][PASSED] - Keys 'Unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Region Selection_dropdown'
+
+21-10-2025T22:13:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:13:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:13:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown"), "Unassigned"): Keys 'Unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:13:23 - [MESSAGE][PASSED] - Keys 'Unassigned' sent to object: 'Object Repository/FIM/Sites Page/Site Filtering/Custom Group Selection_dropdown'
+
+21-10-2025T22:13:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-10-2025T22:13:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Default" time="22.473" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Default" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:13:28 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Default: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Default
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:13:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:13:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:13:28 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:13:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:13:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:13:28 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:13:29 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:13:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:13:29 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:13:29 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:13:29 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:13:29 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:13:29 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:13:29 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:13:30 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify Inventory Filter Default.run(Verify Inventory Filter Default:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:13:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:13:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:13:47 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:13:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:13:49 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:13:49 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify Inventory Filter Default.run(Verify Inventory Filter Default:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:13:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:13:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Inventory Filter_dropdown"), 300): Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is clickable
+
+21-10-2025T22:13:50 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is clickable
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FIM/Sites Page/Site Filtering/Inventory Filter_dropdown"), 10): Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is visible
+
+21-10-2025T22:13:50 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is visible
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("FIM/Sites Page/Site Filtering/Inventory Filter_dropdown"), "All Consignees", false, 10): All options with label 'All Consignees' are selected in object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' 
+
+21-10-2025T22:13:50 - [MESSAGE][PASSED] - All options with label 'All Consignees' are selected in object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' 
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Options" time="23.569" classname="Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Options" status="PASSED">
+         <system-out><![CDATA[21-10-2025T22:13:50 - [TEST_CASE][PASSED] - Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Options: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Options
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+21-10-2025T22:13:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-10-2025T22:13:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-10-2025T22:13:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-10-2025T22:13:51 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+21-10-2025T22:13:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-10-2025T22:13:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-10-2025T22:13:52 - [TEST_STEP][PASSED] - navigateToUrl(TURK124SitesURL): Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:13:52 - [MESSAGE][PASSED] - Navigate to 'https://kag-inventory-management-portal.qa.thekag.com/site/TURK124?cg=-1&r&i=AllConsignees&sorted=false' successfully
+
+21-10-2025T22:13:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-10-2025T22:13:53 - [MESSAGE][PASSED] - Current window maximized
+
+21-10-2025T22:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Username_txt"), "Chris.Sheldon+DES_QA@Thekag.com"): Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:13:53 - [MESSAGE][PASSED] - Text 'Chris.Sheldon+DES_QA@Thekag.com' is set on object 'Object Repository/FIM/Username_txt'
+
+21-10-2025T22:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("FIM/Password_txt"), "QATest!2"): Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:13:53 - [MESSAGE][PASSED] - Text 'QATest!2' is set on object 'Object Repository/FIM/Password_txt'
+
+21-10-2025T22:13:53 - [TEST_STEP][PASSED] - click(findTestObject("FIM/Login_btn")): Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FIM/Login_btn' is clicked on
+
+21-10-2025T22:13:53 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("FIM/Server_Notification_Close_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify Inventory Filter Options.run(Verify Inventory Filter Options:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:14:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:14:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/FIM/Server_Notification_Close_btn'. Try using Self-healing.
+
+21-10-2025T22:14:10 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+21-10-2025T22:14:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+21-10-2025T22:14:12 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+21-10-2025T22:14:12 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FIM/Server_Notification_Close_btn' located by '/html/body/div/div[1]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Verify Inventory Filter Options.run(Verify Inventory Filter Options:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761090826401.run(TempTestSuite1761090826401.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+21-10-2025T22:14:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+21-10-2025T22:14:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+21-10-2025T22:14:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FIM/Sites Page/Site Filtering/Inventory Filter_dropdown"), 300): Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is clickable
+
+21-10-2025T22:14:13 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is clickable
+
+21-10-2025T22:14:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FIM/Sites Page/Site Filtering/Inventory Filter_dropdown"), 10): Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is visible
+
+21-10-2025T22:14:14 - [MESSAGE][PASSED] - Object 'Object Repository/FIM/Sites Page/Site Filtering/Inventory Filter_dropdown' is visible
+
+21-10-2025T22:14:14 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("FIM/Sites Page/Site Filtering/Inventory Filter_dropdown"), ["All Consignees", "No Inventory", "Critical Inventory", "Low Inventory", "Inventory Below Threshold", "Inventory Above Threshold"]): Options [All Consignees, No Inventory, Critical Inventory, Low Inventory, Inventory Below Threshold, Inventory Above Threshold] present.
+
+21-10-2025T22:14:14 - [MESSAGE][PASSED] - Options [All Consignees, No Inventory, Critical Inventory, Low Inventory, Inventory Below Threshold, Inventory Above Threshold] present.
+
+21-10-2025T22:14:14 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+21-10-2025T22:14:14 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+21-10-2025T22:14:14 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+21-10-2025T22:14:14 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-10-2025T22:10:04 - [TEST_SUITE][PASSED] - KAG Admin - Site Filtering: Test Cases/FIM/UI/Kenan/Admin/Sites Page/Site Filtering/Verify Inventory Filter Options]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
