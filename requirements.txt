@@ -1,0 +1,5 @@
+pandas
+streamlit
+plotly
+openai   # optional for AI summaries
+lxml

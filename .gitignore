@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.venv/
+.env
+
+# Data
+data/raw_reports/
+data/processed/*.csv
+data/processed/*.sqlite
+
+# Streamlit cache
+.streamlit/
