@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SPG - TripFocus - Account" time="239.212" tests="4" failures="1" errors="0">
+   <testsuite name="SPG - TripFocus - Account" tests="4" failures="1" errors="0" time="239.212" skipped="0" timestamp="22-10-2025T10:13:26" hostname="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com" id="Test Suites/TripFocus/SPG/SPG - TripFocus - Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\944\\s\\Reports\\20251022_091709\\TripFocus\\SPG\\SPG - TripFocus - Account\\20251022_091757"/>
+         <property name="logFiles" value="D:\\ADOagent\\vsts-agent-win-x64-2.217.2\\_work\\944\\s\\Reports\\20251022_091709\\TripFocus\\SPG\\SPG - TripFocus - Account\\20251022_091757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DC1ADOBLD01$ - DC1ADOBLD01.thekag.com"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+         <property name="browser" value="Chrome 141.0.0.0"/>
+         <property name="hostAddress" value="10.2.20.71"/>
+         <property name="sessionId" value="076db964832e07ec8010a4d2cb14fdb8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Dropdown" time="57.67" classname="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Dropdown" status="PASSED">
+         <system-out><![CDATA[22-10-2025T10:13:26 - [TEST_CASE][PASSED] - Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Dropdown: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Dropdown
+
+22-10-2025T10:13:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-10-2025T10:13:27 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+22-10-2025T10:13:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/Open Browser"), ["destinationURL":TFBaseURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:13:29 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/Open Browser: Test Cases/Utility Scripts/Open Browser
+
+22-10-2025T10:13:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-10-2025T10:13:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-10-2025T10:13:29 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+22-10-2025T10:13:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-10-2025T10:13:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-10-2025T10:13:31 - [TEST_STEP][PASSED] - navigateToUrl(destinationURL): Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:13:32 - [MESSAGE][PASSED] - Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:13:32 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Current window maximized
+
+22-10-2025T10:13:32 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+22-10-2025T10:13:32 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:13:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:13:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/TF Sign In"), ["userName":TripFocusBleachTechSPGUsername, "password":TripFocusFDGSPGPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:13:32 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/TF Sign In: Test Cases/Utility Scripts/TF Sign In
+
+22-10-2025T10:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Sign in")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:13:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username"), userName): Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:13:33 - [MESSAGE][PASSED] - Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:13:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Password_Password"), password): Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:13:33 - [MESSAGE][PASSED] - Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Login")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:13:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-10-2025T10:13:33 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:13:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), 5, OPTIONAL): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:13:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:13:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:13:40 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:13:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:13:43 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:13:43 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:13:43 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Dropdown.run(SPG - Verify Account Dropdown:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:13:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:13:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:14:00 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:14:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:14:02 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:14:02 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Dropdown.run(SPG - Verify Account Dropdown:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:14:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:14:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TripFocus/Account/Account Avatar_img"), 15): Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:14:02 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Orders/System_Notification_OK_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Dropdown.run(SPG - Verify Account Dropdown:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:14:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:14:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Orders/System_Notification_OK_btn'. Try using Self-healing.
+
+22-10-2025T10:14:19 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:14:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:14:21 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:14:21 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Dropdown.run(SPG - Verify Account Dropdown:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:14:21 - [TEST_STEP][PASSED] - click(findTestObject("TripFocus/Account/Account Avatar_img")): Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:14:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TripFocus/Page_TripFocus/div_Account"), "Account"): Actual text and expected text of test object 'Object Repository/TripFocus/Page_TripFocus/div_Account' are matched.
+
+22-10-2025T10:14:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TripFocus/Page_TripFocus/div_Account' are matched.
+
+22-10-2025T10:14:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+22-10-2025T10:14:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-10-2025T10:14:24 - [MESSAGE][PASSED] - Browser is closed
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Messages Page" time="55.555" classname="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Messages Page" status="PASSED">
+         <system-out><![CDATA[22-10-2025T10:14:24 - [TEST_CASE][PASSED] - Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Messages Page: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Messages Page
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/Open Browser"), ["destinationURL":TFBaseURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:14:24 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/Open Browser: Test Cases/Utility Scripts/Open Browser
+
+22-10-2025T10:14:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-10-2025T10:14:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-10-2025T10:14:24 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+22-10-2025T10:14:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-10-2025T10:14:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-10-2025T10:14:25 - [TEST_STEP][PASSED] - navigateToUrl(destinationURL): Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:14:26 - [MESSAGE][PASSED] - Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:14:26 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Current window maximized
+
+22-10-2025T10:14:26 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+22-10-2025T10:14:26 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:14:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:14:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/TF Sign In"), ["userName":TripFocusBleachTechSPGUsername, "password":TripFocusFDGSPGPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:14:26 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/TF Sign In: Test Cases/Utility Scripts/TF Sign In
+
+22-10-2025T10:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Sign in")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username"), userName): Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:14:27 - [MESSAGE][PASSED] - Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:14:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Password_Password"), password): Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:14:27 - [MESSAGE][PASSED] - Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Login")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:14:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-10-2025T10:14:28 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:14:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), 5, OPTIONAL): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:14:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:14:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:14:35 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:14:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:14:37 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:14:37 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:14:37 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Messages Page.run(SPG - Verify Account Messages Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:14:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:14:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:14:54 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:14:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:14:56 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:14:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Messages Page.run(SPG - Verify Account Messages Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:14:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:14:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TripFocus/Account/Account Avatar_img"), 15): Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:14:56 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:14:56 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Orders/System_Notification_OK_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Messages Page.run(SPG - Verify Account Messages Page:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:15:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:15:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Orders/System_Notification_OK_btn'. Try using Self-healing.
+
+22-10-2025T10:15:13 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:15:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:15:15 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:15:15 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Messages Page.run(SPG - Verify Account Messages Page:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:15:15 - [TEST_STEP][PASSED] - click(findTestObject("TripFocus/Account/Account Avatar_img")): Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:15:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("TripFocus/Account/Messages_option"), 5): Object 'Object Repository/TripFocus/Account/Messages_option' is present
+
+22-10-2025T10:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Messages_option' is present
+
+22-10-2025T10:15:15 - [TEST_STEP][PASSED] - click(findTestObject("TripFocus/Account/Messages_option")): Object: 'Object Repository/TripFocus/Account/Messages_option' is clicked on
+
+22-10-2025T10:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Account/Messages_option' is clicked on
+
+22-10-2025T10:15:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+22-10-2025T10:15:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+22-10-2025T10:15:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TripFocus/Account/Messages Page_lbl"), "Messages"): Actual text and expected text of test object 'Object Repository/TripFocus/Account/Messages Page_lbl' are matched.
+
+22-10-2025T10:15:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TripFocus/Account/Messages Page_lbl' are matched.
+
+22-10-2025T10:15:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("TripFocus/Account/Messages Page_lbl"), 5): Object 'Object Repository/TripFocus/Account/Messages Page_lbl' is present
+
+22-10-2025T10:15:16 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Messages Page_lbl' is present
+
+22-10-2025T10:15:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+22-10-2025T10:15:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-10-2025T10:15:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-10-2025T10:15:20 - [MESSAGE][PASSED] - Browser is closed
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile" time="71.46" classname="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)&#xa;	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[22-10-2025T10:15:20 - [TEST_CASE][FAILED] - Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/Open Browser"), ["destinationURL":TFBaseURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:15:20 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/Open Browser: Test Cases/Utility Scripts/Open Browser
+
+22-10-2025T10:15:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-10-2025T10:15:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-10-2025T10:15:20 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+22-10-2025T10:15:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-10-2025T10:15:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-10-2025T10:15:21 - [TEST_STEP][PASSED] - navigateToUrl(destinationURL): Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:15:21 - [MESSAGE][PASSED] - Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:15:21 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Current window maximized
+
+22-10-2025T10:15:21 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+22-10-2025T10:15:21 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:15:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:15:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/TF Sign In"), ["userName":TripFocusBleachTechSPGUsername, "password":TripFocusFDGSPGPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:15:22 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/TF Sign In: Test Cases/Utility Scripts/TF Sign In
+
+22-10-2025T10:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Sign in")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:15:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username"), userName): Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:15:23 - [MESSAGE][PASSED] - Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Password_Password"), password): Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:15:23 - [MESSAGE][PASSED] - Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:15:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Login")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:15:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-10-2025T10:15:24 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:15:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), 5, OPTIONAL): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:15:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:15:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:15:31 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:15:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:15:33 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:15:33 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:15:33 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:15:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:15:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:15:50 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:15:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:15:52 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:15:52 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:15:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:15:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TripFocus/Account/Account Avatar_img"), 15): Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:15:52 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:15:52 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Orders/System_Notification_OK_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:16:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:16:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Orders/System_Notification_OK_btn'. Try using Self-healing.
+
+22-10-2025T10:16:09 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:16:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:16:11 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:16:11 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:16:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-10-2025T10:16:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-10-2025T10:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/img_Account_img-avatar")): Object: 'Object Repository/TripFocus/Page_TripFocus/img_Account_img-avatar' is clicked on
+
+22-10-2025T10:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/img_Account_img-avatar' is clicked on
+
+22-10-2025T10:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/a_Profile")): Object: 'Object Repository/TripFocus/Page_TripFocus/a_Profile' is clicked on
+
+22-10-2025T10:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/a_Profile' is clicked on
+
+22-10-2025T10:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/a_Change Password")): Object: 'Object Repository/TripFocus/Page_TripFocus/a_Change Password' is clicked on
+
+22-10-2025T10:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/a_Change Password' is clicked on
+
+22-10-2025T10:16:14 - [TEST_STEP][PASSED] - verifyTextPresent("Change Password", false): Text 'Change Password' is present on page 
+
+22-10-2025T10:16:14 - [MESSAGE][PASSED] - Text 'Change Password' is present on page 
+
+22-10-2025T10:16:14 - [TEST_STEP][PASSED] - click(findTestObject("TripFocus/Account/Account Avatar_img")): Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:16:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TripFocus/Account/Profile/Profile_option"), 30): Object 'Object Repository/TripFocus/Account/Profile/Profile_option' is clickable
+
+22-10-2025T10:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Profile/Profile_option' is clickable
+
+22-10-2025T10:16:14 - [TEST_STEP][PASSED] - click(findTestObject("TripFocus/Account/Profile/Profile_option")): Object: 'Object Repository/TripFocus/Account/Profile/Profile_option' is clicked on
+
+22-10-2025T10:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Account/Profile/Profile_option' is clicked on
+
+22-10-2025T10:16:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TripFocus/Account/Profile/My_Account_lbl"), 30): Object 'Object Repository/TripFocus/Account/Profile/My_Account_lbl' is present
+
+22-10-2025T10:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Profile/My_Account_lbl' is present
+
+22-10-2025T10:16:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("TripFocus/Account/Profile/My_Account_lbl"), 30): Object 'Object Repository/TripFocus/Account/Profile/My_Account_lbl' is present
+
+22-10-2025T10:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Profile/My_Account_lbl' is present
+
+22-10-2025T10:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/a_Profile_1")): Object: 'Object Repository/TripFocus/Page_TripFocus/a_Profile_1' is clicked on
+
+22-10-2025T10:16:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='__BVID__84___BV_tab_button__']'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:16:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Page_TripFocus/a_Profile_1'. Try using Self-healing.
+
+22-10-2025T10:16:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='__BVID__84___BV_tab_button__']'.
+
+22-10-2025T10:16:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//ul[@id='__BVID__83__BV_tab_controls_']/li/a'.
+
+22-10-2025T10:16:30 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(//a[contains(text(),'Profile')])[2]'.
+
+22-10-2025T10:16:30 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/ADOagent/vsts-agent-win-x64-2.217.2/_work/944/s/Reports/Self-healing/Object Repository/TripFocus/Page_TripFocus/a_Profile_1_link.png
+
+22-10-2025T10:16:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TripFocus/Page_TripFocus/a_Profile_1' was broken. Propose an alternative one: '(//a[contains(text(),'Profile')])[2]'.
+
+22-10-2025T10:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/a_Profile_1' is clicked on
+
+22-10-2025T10:16:30 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/TripFocus/Page_TripFocus/h4_User Information"), "User Information"): Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+22-10-2025T10:16:30 - [MESSAGE][FAILED] - Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:16:30 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+)
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: Current window's url is: 'https://www.qa.tripfocus.com/profile'
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): Current window's url is: 'https://www.qa.tripfocus.com/profile'
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - try: Current window's url is: 'https://www.qa.tripfocus.com/profile'
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - comment(Checking for WebDriver disconnect for test case: $tcId): Checking for WebDriver disconnect for test case: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile
+
+22-10-2025T10:16:31 - [MESSAGE][INFO] - Checking for WebDriver disconnect for test case: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.qa.tripfocus.com/profile'
+
+22-10-2025T10:16:31 - [MESSAGE][PASSED] - Current window's url is: 'https://www.qa.tripfocus.com/profile']]></system-out>
+         <system-err><![CDATA[22-10-2025T10:15:20 - [TEST_CASE][FAILED] - Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Signout" time="54.097" classname="Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Signout" status="PASSED">
+         <system-out><![CDATA[22-10-2025T10:16:31 - [TEST_CASE][PASSED] - Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Signout: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Signout
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/Open Browser"), ["destinationURL":TFBaseURL], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:16:31 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/Open Browser: Test Cases/Utility Scripts/Open Browser
+
+22-10-2025T10:16:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-10-2025T10:16:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-10-2025T10:16:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-10-2025T10:16:31 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-gpu, --disable-dev-shm-usage]']
+
+22-10-2025T10:16:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-10-2025T10:16:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-10-2025T10:16:32 - [TEST_STEP][PASSED] - navigateToUrl(destinationURL): Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:16:33 - [MESSAGE][PASSED] - Navigate to 'https://www.qa.tripfocus.com' successfully
+
+22-10-2025T10:16:33 - [TEST_STEP][PASSED] - if (maximizeWindow == true): Current window maximized
+
+22-10-2025T10:16:33 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+22-10-2025T10:16:33 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:16:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/Open Browser' successfully
+
+22-10-2025T10:16:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utility Scripts/TF Sign In"), ["userName":TripFocusBleachTechSPGUsername, "password":TripFocusFDGSPGPassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:16:33 - [TEST_CASE][PASSED] - Test Cases/Utility Scripts/TF Sign In: Test Cases/Utility Scripts/TF Sign In
+
+22-10-2025T10:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Sign in")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Sign in' is clicked on
+
+22-10-2025T10:16:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username"), userName): Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:16:34 - [MESSAGE][PASSED] - Text 'Ashford.Chenault+BleachtechCustomerSPGONLY@thekag.com' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Username (e.g. email address)_Username'
+
+22-10-2025T10:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TripFocus/Page_TripFocus/input_Password_Password"), password): Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:16:34 - [MESSAGE][PASSED] - Text 'CrashBan911!!' is set on object 'Object Repository/TripFocus/Page_TripFocus/input_Password_Password'
+
+22-10-2025T10:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/button_Login")): Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/button_Login' is clicked on
+
+22-10-2025T10:16:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-10-2025T10:16:34 - [MESSAGE][PASSED] - Current window maximized
+
+22-10-2025T10:16:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), 5, OPTIONAL): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:16:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:16:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:16:42 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:16:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:16:44 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:16:44 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+
+22-10-2025T10:16:44 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Testing_Notification_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Signout.run(SPG - Verify Account Signout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:17:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:17:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Testing_Notification_btn'. Try using Self-healing.
+
+22-10-2025T10:17:01 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:17:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:17:03 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:17:03 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Testing_Notification_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at TF Sign In.run(TF Sign In:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at SPG - Verify Account Signout.run(SPG - Verify Account Signout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:17:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utility Scripts/TF Sign In' successfully
+
+22-10-2025T10:17:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TripFocus/Account/Account Avatar_img"), 15): Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/TripFocus/Account/Account Avatar_img' is clickable
+
+22-10-2025T10:17:03 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TripFocus/Orders/System_Notification_OK_btn"), OPTIONAL) == true): Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Signout.run(SPG - Verify Account Signout:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:17:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="__BVID__10___BV_modal_footer_"]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:17:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TripFocus/Orders/System_Notification_OK_btn'. Try using Self-healing.
+
+22-10-2025T10:17:20 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+22-10-2025T10:17:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+22-10-2025T10:17:22 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+22-10-2025T10:17:22 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/TripFocus/Orders/System_Notification_OK_btn' located by '//*[@id="__BVID__10___BV_modal_footer_"]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at SPG - Verify Account Signout.run(SPG - Verify Account Signout:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-10-2025T10:17:22 - [TEST_STEP][PASSED] - click(findTestObject("TripFocus/Account/Account Avatar_img")): Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Account/Account Avatar_img' is clicked on
+
+22-10-2025T10:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TripFocus/Page_TripFocus/a_Sign out")): Object: 'Object Repository/TripFocus/Page_TripFocus/a_Sign out' is clicked on
+
+22-10-2025T10:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TripFocus/Page_TripFocus/a_Sign out' is clicked on
+
+22-10-2025T10:17:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+22-10-2025T10:17:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-10-2025T10:17:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-10-2025T10:17:25 - [MESSAGE][PASSED] - Browser is closed
+
+22-10-2025T10:17:25 - [TEST_STEP][PASSED] - Start listener action : retryOnDisconnect: null
+
+22-10-2025T10:17:25 - [TEST_STEP][PASSED] - tcId = testCaseContext.getTestCaseId(): null
+
+22-10-2025T10:17:25 - [TEST_STEP][PASSED] - currentRetry = retryCounts.getOrDefault(tcId, 0): null
+
+22-10-2025T10:17:25 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" && currentRetry < MAX_RETRIES): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-10-2025T10:13:26 - [TEST_SUITE][FAILED] - SPG - TripFocus - Account: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[22-10-2025T10:13:26 - [TEST_SUITE][FAILED] - SPG - TripFocus - Account: Test Cases/TripFocus/SPG/SPG - Account/SPG - Verify Account Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at SPG - Verify Account Profile.run(SPG - Verify Account Profile:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1761139077237.run(TempTestSuite1761139077237.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'User Information' of test object 'Object Repository/TripFocus/Page_TripFocus/h4_User Information' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>
